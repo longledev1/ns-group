@@ -5,8 +5,9 @@ export const JourneySection = () => {
   const images = useMemo(
     () => [
       {
-        src: "/images/ongTranTuong.png",
-        caption: "Ảnh chụp ông Trần Tương và du khách người Hàn Quốc",
+        src: "/images/ongTranTuong1.png",
+        caption:
+          "              Ảnh chụp ông Trần Tương (trái) và ông Trần Anh Dũng tại Trại Mát",
       },
       {
         src: "/images/ns6.jpg",
@@ -71,7 +72,8 @@ export const JourneySection = () => {
               Ngọc Sương Group (NSG) được sáng lập bởi ông Trần Anh Dũng, người
               có hơn 40 năm kinh nghiệm trong lĩnh vực F&B tại Việt Nam và quốc
               tế. Ông là con trai của ông Trần Tương – người đặt nền móng cho
-              thương hiệu Ngọc Sương từ năm 1955.
+              thương hiệu Ngọc Sương từ năm{" "}
+              <span className="text-CTA font-bold">1955</span>.
             </p>
             <p className="mt-4">
               Từ niềm đam mê ẩm thực, ông Dũng phát triển chuỗi nhà hàng hải sản
@@ -82,13 +84,13 @@ export const JourneySection = () => {
 
           <div className="w-full">
             <img
-              src="/images/ongTranTuong.png"
+              src="/images/ongTranTuong1.png"
               alt=""
               className="w-full cursor-pointer object-cover transition-transform duration-300 hover:scale-[1.01]"
               onClick={() => openLightbox(0)}
             />
             <p className="mt-2 text-center italic">
-              Ảnh chụp ông Trần Tương (phải) và du khách người Hàn Quốc
+              Ảnh chụp ông Trần Tương (trái) và ông Trần Anh Dũng tại Trại Mát
             </p>
           </div>
         </div>
@@ -160,7 +162,7 @@ export const JourneySection = () => {
               className="max-h-[85vh] w-full rounded-lg object-contain"
             />
             {images[activeIndex].caption ? (
-              <p className="mt-3 text-center text-sm italic">
+              <p className="mt-3 text-center text-sm text-white italic">
                 {images[activeIndex].caption}
               </p>
             ) : null}

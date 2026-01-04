@@ -4,6 +4,7 @@ import { AboutSection } from "../../components/Home/AboutSection";
 import { SlideSection } from "../../components/Home/SlideSection";
 import { BrandSection } from "../../components/Home/BrandSection";
 import { MapSection } from "../../components/Home/MapSection";
+import { ContactForm } from "../../components/Home/ContactForm";
 export const HomePage = () => {
   return (
     <div className="text-primary mt-[120px]">
@@ -16,7 +17,7 @@ export const HomePage = () => {
           <SlideSection />
           <BrandSection />
           <div className="flex justify-center">
-            <p>Long</p>
+            <ContactForm />
           </div>
         </div>
       </div>

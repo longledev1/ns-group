@@ -110,13 +110,13 @@ export const AboutSection = () => {
         </div>
         <div className="relative h-[600px] w-[580px] overflow-hidden">
           <img
-            src="/images/map.png"
+            src="/images/villa2.png"
             className="h-full w-full object-cover"
             alt=""
           />
           <div className="bg-tertiary/90 absolute right-0 bottom-0 left-0 p-6 text-white">
             <p className="italic">
-              Resort Ngọc Sương khi nhìn từ trên cao với thiết kế sang trọng
+              Hình ảnh Villa nghỉ dưỡng tại Ngọc Sương Resort, Khánh Hòa
             </p>
           </div>
         </div>

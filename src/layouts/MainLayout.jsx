@@ -8,7 +8,7 @@ export const MainLayout = () => {
       {/* <Header /> */}
       <Hero />
       <Outlet />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };
