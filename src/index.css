@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  /* FONT HEADING (PLAYFAIR) */
+  --font-heading: "Playfair Display", serif;
+  /* FONT SANS (LORA) */
+  --font-sans: "Lora", serif;
+  --font-art: "Allura", cursive;
+  --color-primary: #d56a2c;
+  --color-secondary: #26211b;
+  --color-tertiary: #3a332b;
+}
+
+/* Set default font-size = 14px (Mobile-first) */
+:root {
+  font-size: 14px;
+}
+
+/* Desktop >= 1024px */
+@media (min-width: 1024px) {
+  :root {
+    font-size: 16px;
+  }
+}
+
+body {
+  font-family: var(--font-sans);
+}
+
+/* padding left-right 40px padding top-bottom 20px */
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 20px;
+}

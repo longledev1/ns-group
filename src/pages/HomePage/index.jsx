@@ -1,0 +1,26 @@
+import { CultureSection } from "../../components/Home/CultureSection";
+import { JourneySection } from "../../components/Home/JourneySection";
+import { AboutSection } from "../../components/Home/AboutSection";
+import { SlideSection } from "../../components/Home/SlideSection";
+import { BrandSection } from "../../components/Home/BrandSection";
+import { MapSection } from "../../components/Home/MapSection";
+import WindmillNS from "../../components/Windmill";
+export const HomePage = () => {
+  return (
+    <div className="mt-[120px] text-white">
+      <div className="container">
+        <div className="flex flex-col gap-y-[200px]">
+          <CultureSection />
+          <JourneySection />
+          <MapSection />
+          <AboutSection />
+          <SlideSection />
+          <BrandSection />
+          <div className="flex justify-center">
+            <p>Long</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};

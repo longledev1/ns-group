@@ -1,0 +1,6 @@
+svg path[fill-opacity] {
+  display: none;
+}
+svg [stroke-dasharray] {
+  display: none;
+}
