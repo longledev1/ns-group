@@ -20,16 +20,17 @@ export const MapSection = () => {
 Khám phá hành trình Ngọc Sương qua các tỉnh thành, nơi thiên nhiên và trải nghiệm nghỉ dưỡng giao thoa."
       />
 
-      <div className="mt-[-100px] grid grid-cols-2 text-white">
+      <div className="mt-[-100px] grid grid-cols-2 gap-x-12 text-white">
         {/* MAP */}
-        <div className="flex flex-col gap-y-10">
+        <div className="sticky top-24 flex h-fit flex-col items-center">
           <VietNamMap
             activeProvince={activeProvince}
             setActiveProvince={setActiveProvince}
           />
-          <p className="text-[14px] text-[#c2c2c2] italic">
-            Khám phá hành trình phát triển của Ngọc Sương qua từng tỉnh thành
-            trên bản đồ.
+
+          <p className="mt-6 max-w-md text-center text-[14px] text-white/60 italic">
+            Chọn các tỉnh thành phát sáng trên bản đồ để khám phá hành trình và
+            những dấu ấn của Ngọc Sương.
           </p>
         </div>
 
