@@ -4,7 +4,6 @@ import { AboutSection } from "../../components/Home/AboutSection";
 import { SlideSection } from "../../components/Home/SlideSection";
 import { BrandSection } from "../../components/Home/BrandSection";
 import { MapSection } from "../../components/Home/MapSection";
-import WindmillNS from "../../components/Windmill";
 export const HomePage = () => {
   return (
     <div className="text-primary mt-[120px]">

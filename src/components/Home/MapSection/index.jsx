@@ -8,7 +8,7 @@ import Roadmap from "./Roadmap";
 import { useState } from "react";
 
 export const MapSection = () => {
-  const [activeProvince, setActiveProvince] = useState("VN-34");
+  const [activeProvince, setActiveProvince] = useState("mien-trung");
   const data = provinceData[activeProvince];
 
   return (
@@ -22,7 +22,7 @@ Khám phá hành trình Ngọc Sương qua các tỉnh thành, nơi thiên nhiê
 
       <div className="mt-[-100px] grid grid-cols-2 gap-x-12 text-white">
         {/* MAP */}
-        <div className="sticky top-24 flex h-fit flex-col items-center">
+        <div className="sticky top-24 flex h-fit flex-col justify-center">
           <VietNamMap
             activeProvince={activeProvince}
             setActiveProvince={setActiveProvince}
@@ -46,7 +46,7 @@ Khám phá hành trình Ngọc Sương qua các tỉnh thành, nơi thiên nhiê
                 duration: 0.4,
                 ease: "easeOut",
               }}
-              className="pr-6"
+              className=""
             >
               <h1 className="text-primary mb-2 text-3xl font-bold">
                 {data.name}

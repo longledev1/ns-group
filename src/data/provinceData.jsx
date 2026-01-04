@@ -1,5 +1,5 @@
 const provinceData = {
-  "VN-79": {
+  "mien-nam": {
     name: "TP. Hồ Chí Minh",
     description:
       "Thị trường trọng điểm, nơi nhà hàng Ngọc Sương hình thành và phát triển mạnh mẽ nhất",
@@ -26,7 +26,7 @@ const provinceData = {
       },
     ],
   },
-  "VN-34": {
+  "mien-trung": {
     name: "Khánh Hòa",
     description:
       "Thiên đường biển miền Trung – nơi Ngọc Sương Resort mang đến trải nghiệm nghỉ dưỡng yên bình giữa biển trời Khánh Hòa.",
@@ -53,7 +53,7 @@ const provinceData = {
       },
     ],
   },
-  "VN-01": {
+  "mien-bac": {
     name: "Hà Nội",
     description:
       "Bước đi chiến lược của Ngọc Sương khi mở rộng ra phía Bắc và hiện diện tại Thủ đô",
