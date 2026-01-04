@@ -4,8 +4,8 @@ function Roadmap({ projects }) {
       {projects.map((item, index) => (
         <div key={index} className="relative">
           {/* Content */}
-          <div className="rounded-xl bg-black/30 p-5">
-            <span className="text-primary text-sm font-semibold">
+          <div className="bg-primary rounded-xl p-5">
+            <span className="text-sm font-semibold text-[#CFB26E]">
               {item.date}
             </span>
 

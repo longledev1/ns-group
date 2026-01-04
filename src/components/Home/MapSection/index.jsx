@@ -52,7 +52,7 @@ Khám phá hành trình Ngọc Sương qua các tỉnh thành, nơi thiên nhiê
                 {data.name}
               </h1>
 
-              <p className="mb-8 text-white/80">{data.description}</p>
+              <p className="text-primary mb-8">{data.description}</p>
 
               {data.project && <Roadmap projects={data.project} />}
             </motion.div>

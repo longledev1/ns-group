@@ -7,7 +7,7 @@ import { MapSection } from "../../components/Home/MapSection";
 import WindmillNS from "../../components/Windmill";
 export const HomePage = () => {
   return (
-    <div className="mt-[120px] text-white">
+    <div className="text-primary mt-[120px]">
       <div className="container">
         <div className="flex flex-col gap-y-[200px]">
           <CultureSection />

@@ -57,7 +57,7 @@ export const SlideSection = () => {
               {slides[index].desc}
             </p>
 
-            <button className="bg-primary mt-2 w-[150px] p-2 text-[14px] font-semibold shadow-[0_14px_6px_rgba(0,0,0,0.35)] transition-all duration-200 hover:-translate-y-1 hover:shadow-[0_18px_8px_rgba(0,0,0,0.45)] active:translate-y-1 active:shadow-[0_8px_4px_rgba(0,0,0,0.3)]">
+            <button className="bg-CTA mt-2 w-[150px] p-2 text-[14px] font-semibold shadow-[0_14px_6px_rgba(0,0,0,0.35)] transition-all duration-200 hover:-translate-y-1 hover:shadow-[0_18px_8px_rgba(0,0,0,0.45)] active:translate-y-1 active:shadow-[0_8px_4px_rgba(0,0,0,0.3)]">
               XEM THÊM
             </button>
           </div>

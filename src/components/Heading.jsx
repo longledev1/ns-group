@@ -4,7 +4,7 @@ export const Heading = ({ title, subtitle, description }) => {
       <div>
         <div className="flex items-center gap-x-2">
           <div className="bg-primary h-2 w-45"></div>
-          <p className="font-heading text-2xl">{title}</p>
+          <p className="font-heading text-2xl font-semibold">{title}</p>
         </div>
         <p className="mt-2 text-[18px]">{subtitle}</p>
       </div>

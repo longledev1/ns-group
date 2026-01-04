@@ -10,9 +10,11 @@ export const AboutSection = () => {
       />
 
       <div className="mt-6 flex items-center justify-between">
-        <div className="flex w-[650px] flex-col gap-y-8 text-center leading-[35px] text-[#c2c2c2]">
-          <p className="text-primary text-center text-3xl">"CHO ĐỜI ĐẸP HƠN"</p>
-          <p>
+        <div className="text-primary flex w-[650px] flex-col gap-y-8 text-center leading-[35px]">
+          <p className="text-primary text-center text-3xl font-semibold">
+            "CHO ĐỜI ĐẸP HƠN"
+          </p>
+          <p className="text-primary">
             Khởi nghiệp tại Pháp và trở về Việt Nam từ những năm 1990, ông Trần
             Anh Dũng – nhà sáng lập NSG – đã đặt nền móng cho hành trình phát
             triển bền vững trong lĩnh vực F&B, với chuỗi Nhà hàng Hải sản Ngọc
@@ -27,7 +29,7 @@ export const AboutSection = () => {
             xúc.
           </p>
           <div className="flex justify-center">
-            <button className="bg-primary w-[150px] p-2 text-[14px] font-semibold text-white shadow-[0_14px_6px_rgba(0,0,0,0.35)] transition-all duration-200 ease-out hover:-translate-y-1 hover:shadow-[0_18px_8px_rgba(0,0,0,0.4)] active:translate-y-1 active:shadow-[0_8px_4px_rgba(0,0,0,0.3)]">
+            <button className="bg-CTA w-[150px] p-2 text-[14px] font-semibold text-white shadow-[0_14px_6px_rgba(0,0,0,0.35)] transition-all duration-200 ease-out hover:-translate-y-1 hover:shadow-[0_18px_8px_rgba(0,0,0,0.4)] active:translate-y-1 active:shadow-[0_8px_4px_rgba(0,0,0,0.3)]">
               XEM THÊM
             </button>
           </div>
@@ -51,18 +53,18 @@ export const AboutSection = () => {
       <div className="mt-10 flex items-center justify-between">
         <div className="relative h-[600px] w-[580px] overflow-hidden">
           <img
-            src="/images/cook.png"
+            src="/images/NSMarina_2.jpg"
             className="h-full w-full object-cover"
             alt=""
           />
           <div className="bg-tertiary/90 absolute right-0 bottom-0 left-0 p-6 text-white">
             <p className="italic">
-              Ông Trần Anh Dũng cùng đầu bếp đang nấu ăn tại Resort Ngọc Sương
+              Thực khách thưởng thức ẩm thực tại Nhà hàng Ngọc Sương Bến Thuyền
             </p>
           </div>
         </div>
-        <div className="flex w-[650px] flex-col gap-y-8 text-center leading-[35px] text-[#c2c2c2]">
-          <div className="text-primary flex flex-col items-center gap-y-4 text-3xl">
+        <div className="text-primary flex w-[650px] flex-col gap-y-8 text-center leading-[35px]">
+          <div className="text-primary flex flex-col items-center gap-y-4 text-3xl font-semibold">
             <p>TÔN VINH GIÁ TRỊ CỦA</p>
             <p>ẨM THỰC VIỆT NAM</p>
           </div>
@@ -76,7 +78,7 @@ export const AboutSection = () => {
             Quốc Tế nhằm khẳng định giá trị ẩm thực Việt Nam
           </p>
           <div className="flex justify-center">
-            <button className="bg-primary w-[150px] p-2 text-[14px] font-semibold text-white shadow-[0_14px_6px_rgba(0,0,0,0.35)] transition-all duration-200 ease-out hover:-translate-y-1 hover:shadow-[0_18px_8px_rgba(0,0,0,0.4)] active:translate-y-1 active:shadow-[0_8px_4px_rgba(0,0,0,0.3)]">
+            <button className="bg-CTA w-[150px] p-2 text-[14px] font-semibold text-white shadow-[0_14px_6px_rgba(0,0,0,0.35)] transition-all duration-200 ease-out hover:-translate-y-1 hover:shadow-[0_18px_8px_rgba(0,0,0,0.4)] active:translate-y-1 active:shadow-[0_8px_4px_rgba(0,0,0,0.3)]">
               XEM THÊM
             </button>
           </div>
@@ -85,8 +87,8 @@ export const AboutSection = () => {
 
       {/* COLUMN 3 */}
       <div className="mt-10 flex items-center justify-between">
-        <div className="flex w-[650px] flex-col gap-y-8 text-center leading-[35px] text-[#c2c2c2]">
-          <div className="text-primary flex flex-col items-center gap-y-4 text-3xl">
+        <div className="text-primary flex w-[650px] flex-col gap-y-8 text-center leading-[35px]">
+          <div className="text-primary flex flex-col items-center gap-y-4 text-3xl font-semibold">
             <p>ĐỜI SỐNG HIỆN ĐẠI GIỮA</p>
             <p>THIÊN NHIÊN HOANG DÃ</p>
           </div>
@@ -101,7 +103,7 @@ export const AboutSection = () => {
             du khách trong nước và cả nước ngoài.
           </p>
           <div className="flex justify-center">
-            <button className="bg-primary w-[150px] p-2 text-[14px] font-semibold text-white shadow-[0_14px_6px_rgba(0,0,0,0.35)] transition-all duration-200 ease-out hover:-translate-y-1 hover:shadow-[0_18px_8px_rgba(0,0,0,0.4)] active:translate-y-1 active:shadow-[0_8px_4px_rgba(0,0,0,0.3)]">
+            <button className="bg-CTA w-[150px] p-2 text-[14px] font-semibold text-white shadow-[0_14px_6px_rgba(0,0,0,0.35)] transition-all duration-200 ease-out hover:-translate-y-1 hover:shadow-[0_18px_8px_rgba(0,0,0,0.4)] active:translate-y-1 active:shadow-[0_8px_4px_rgba(0,0,0,0.3)]">
               XEM THÊM
             </button>
           </div>

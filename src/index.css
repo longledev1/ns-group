@@ -6,9 +6,10 @@
   /* FONT SANS (LORA) */
   --font-sans: "Lora", serif;
   --font-art: "Allura", cursive;
-  --color-primary: #d56a2c;
-  --color-secondary: #26211b;
+  --color-primary: #3d3832;
+  --color-secondary: #fdfdf6;
   --color-tertiary: #3a332b;
+  --color-CTA: #cfb26e;
 }
 
 /* Set default font-size = 14px (Mobile-first) */

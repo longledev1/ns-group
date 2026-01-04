@@ -66,7 +66,7 @@ export const JourneySection = () => {
       <div className="mt-10">
         {/* Top content */}
         <div className="mb-6 flex items-center justify-between gap-x-20">
-          <div className="text-justify leading-[30px] text-[#c2c2c2]">
+          <div className="text-primary text-justify leading-[30px]">
             <p>
               Ngọc Sương Group (NSG) được sáng lập bởi ông Trần Anh Dũng, người
               có hơn 40 năm kinh nghiệm trong lĩnh vực F&B tại Việt Nam và quốc

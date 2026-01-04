@@ -69,7 +69,7 @@ export const BrandSection = () => {
               alt={brand.alt}
               className="h-full w-full cursor-pointer rounded-full bg-white opacity-80 transition-all duration-500 hover:scale-110 hover:opacity-100 hover:shadow-[0_0_30px_rgba(180,130,80,0.2)]"
             />
-            <p className="mt-6 text-center text-sm text-[#c2c2c2]">
+            <p className="text-primary mt-6 text-center text-sm">
               {brand.desc}
             </p>
           </div>
