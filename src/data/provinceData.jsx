@@ -41,7 +41,7 @@ const provinceData = {
       {
         name: "Bộ phim đầu tiên quay tại Ngọc Sương Resort",
         date: "2010",
-        desc: "Bộ phim Mỹ Nhân Kế – tác phẩm võ hiệp cổ trang do đạo diễn Nguyễn Quang Dũng thực hiện – là một trong những dự án điện ảnh đầu tiên chọn Ngọc Sương Resort làm bối cảnh quay, đem đến những cảnh biển xanh, bãi cát đẹp mắt trên màn ảnh rộng",
+        desc: "Bộ phim Những Nụ Hôn Rực Rỡ – tác phẩm điện ảnh do đạo diễn Nguyễn Quang Dũng thực hiện – là một trong những dự án điện ảnh đầu tiên chọn Ngọc Sương Resort làm bối cảnh quay, đem đến những cảnh biển xanh, bãi cát đẹp mắt trên màn ảnh rộng",
         images: ["/images/NSPhim.png", "/images/NSPhim1.png"],
       },
 

@@ -7,7 +7,7 @@ import { MapSection } from "../../components/Home/MapSection";
 import { ContactForm } from "../../components/Home/ContactForm";
 export const HomePage = () => {
   return (
-    <div className="text-primary mt-[120px]">
+    <div className="text-primary mt-[40px] md:mt-[120px]">
       <div className="container">
         <div className="flex flex-col gap-y-[200px]">
           <CultureSection />

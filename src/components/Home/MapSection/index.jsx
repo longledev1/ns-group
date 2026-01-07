@@ -20,7 +20,7 @@ export const MapSection = () => {
 Khám phá hành trình Ngọc Sương qua các tỉnh thành, nơi thiên nhiên và trải nghiệm nghỉ dưỡng giao thoa."
       />
 
-      <div className="mt-[-100px] grid grid-cols-2 gap-x-12 text-white">
+      <div className="mt-25 grid grid-cols-2 gap-x-12 text-white">
         {/* MAP */}
         <div className="sticky top-24 flex h-fit flex-col justify-center">
           <VietNamMap

@@ -1,36 +1,27 @@
-import { Header } from "../Header";
-
-export const Hero = () => {
+import HomeHeroContent from "./HomeHero";
+import AboutHeroContent from "./AboutHero";
+export const Hero = ({ image, layout = "home", title, subtitle }) => {
   return (
-    <section className="relative h-[725px] w-full overflow-hidden">
-      {/* Background image */}
+    <section className="relative w-full overflow-hidden">
       <img
-        src="/images/resort.jpg" // đổi đúng path ảnh của bạn
+        src={image}
         alt=""
         className="absolute inset-0 h-full w-full object-cover"
       />
 
-      {/* (Optional) overlay để chữ/menu nổi hơn */}
-      <div className="absolute inset-0 bg-black/20" />
+      {layout === "home" && (
+        <>
+          <div className="absolute inset-0 bg-black/30" />
+          <HomeHeroContent title={title} subtitle={subtitle} />
+        </>
+      )}
 
-      {/* Header overlay */}
-      <div className="absolute top-0 left-0 z-20 w-full">
-        <Header />
-      </div>
-
-      {/* (Optional) Hero content */}
-      <div className="relative z-10 flex h-full items-end">
-        <div className="container pb-14 text-white">
-          <div className="flex justify-end text-right">
-            <div className="mb-25">
-              <p className="font-art text-3xl text-[80px] italic">Welcome to</p>
-              <h1 className="mt-[-35px] text-[70px] font-bold tracking-wide">
-                NS GROUP
-              </h1>
-            </div>
-          </div>
-        </div>
-      </div>
+      {layout === "about" && (
+        <>
+          <div className="absolute inset-0 bg-[#1C1C1A]" />
+          <AboutHeroContent title={title} subtitle={subtitle} />
+        </>
+      )}
     </section>
   );
 };
