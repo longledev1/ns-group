@@ -8,10 +8,10 @@ export const Heading = ({ title, subtitle, description }) => {
             {title}
           </p>
         </div>
-        <p className="mt-2 text-[14px] md:text-[18px]">{subtitle}</p>
+        <p className="mt-2 text-[14px] md:text-[18px]">{subtitle || ""}</p>
       </div>
       <div className="hidden w-110 text-[14px] text-[#a09494] md:block">
-        {description}
+        {description || ""}
       </div>
     </div>
   );
