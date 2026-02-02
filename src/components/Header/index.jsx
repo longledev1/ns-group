@@ -1,5 +1,6 @@
 import { useState } from "react";
 import SideMenu from "./SideMenu";
+import { Link } from "react-router-dom";
 export const Header = ({ variant = "default" }) => {
   const [openMenu, setOpenMenu] = useState(false);
 
@@ -19,13 +20,13 @@ export const Header = ({ variant = "default" }) => {
               <p className="cursor-pointer hover:underline">VI</p>
             </div>
 
-            <div>
+            <Link to="/">
               <img
                 src="/images/logo.png"
                 alt="Logo"
                 className="mt-[-30px] w-30"
               />
-            </div>
+            </Link>
 
             <div>
               <button

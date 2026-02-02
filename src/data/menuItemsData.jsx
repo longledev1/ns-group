@@ -44,11 +44,6 @@ export const MENU_ITEMS = [
         label: "KingClam Grill Bar",
         path: "/fnb/kingclam-grill-bar",
       },
-      {
-        id: "4-2",
-        label: "Trai Mat",
-        path: "/fnb/trai-mat",
-      },
     ],
   },
   {

@@ -5,18 +5,35 @@ import { SlideSection } from "../../components/Home/SlideSection";
 import { BrandSection } from "../../components/Home/BrandSection";
 import { MapSection } from "../../components/Home/MapSection";
 import { ContactForm } from "../../components/Home/ContactForm";
+import Section from "../../components/Section";
 export const HomePage = () => {
   return (
     <div className="text-primary mt-[40px] md:mt-[120px]">
       <div className="container">
-        <div className="flex flex-col gap-y-[200px]">
+        <div className="flex flex-col">
           <CultureSection />
-          <JourneySection />
-          <MapSection />
-          <AboutSection />
-          <SlideSection />
-          <BrandSection />
-          <div className="flex justify-center">
+
+          <Section>
+            <JourneySection />
+          </Section>
+
+          <Section>
+            <MapSection />
+          </Section>
+
+          <Section>
+            <AboutSection />
+          </Section>
+
+          <Section>
+            <SlideSection />
+          </Section>
+
+          <Section>
+            <BrandSection />
+          </Section>
+
+          <div className="mt-[200px] flex justify-center">
             <ContactForm />
           </div>
         </div>

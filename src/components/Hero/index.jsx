@@ -1,5 +1,6 @@
 import HomeHeroContent from "./HomeHero";
 import AboutHeroContent from "./AboutHero";
+import ProjectHeroContent from "./ProjectHero";
 export const Hero = ({ image, layout = "home", title, subtitle }) => {
   return (
     <section className="relative w-full overflow-hidden">
@@ -20,6 +21,13 @@ export const Hero = ({ image, layout = "home", title, subtitle }) => {
         <>
           <div className="absolute inset-0 bg-[#1C1C1A]" />
           <AboutHeroContent title={title} subtitle={subtitle} />
+        </>
+      )}
+
+      {layout === "fnb" && (
+        <>
+          <div className="absolute inset-0 bg-black/65" />
+          <ProjectHeroContent title={title} subtitle={subtitle} />
         </>
       )}
     </section>
