@@ -2,7 +2,7 @@ const provinceData = {
   "mien-nam": {
     name: "TP. Hồ Chí Minh",
     description:
-      "Thị trường trọng điểm, nơi nhà hàng Ngọc Sương hình thành và phát triển mạnh mẽ nhất",
+      "Thị trường trọng điểm, nơi nhà hàng Ngọc Sương hình thành và phát triển mạnh mẽ ",
     project: [
       {
         name: "Nhà hàng Ngọc Sương Bến Thuyền",

@@ -1,33 +1,33 @@
 export const MENU_ITEMS = [
   {
     id: 1,
-    label: "Home",
+    label: "Trang chủ",
     path: "/",
   },
   {
     id: 2,
-    label: "About Us",
+    label: "Về chúng tôi",
     path: "/about-us",
   },
   {
     id: 3,
-    label: "Projects",
+    label: "Bất động sản",
     children: [
       {
         id: "3-1",
         label: "Exotel Yen Bay",
-        path: "/projects/exotel-yen-bay",
+        path: "/estate/exotel-yen-bay",
       },
       {
         id: "3-2",
         label: "Yen Bay Retreat",
-        path: "/projects/yen-bay-retreat",
+        path: "/estate/yen-bay-retreat",
       },
     ],
   },
   {
     id: 4,
-    label: "Food & Beverage",
+    label: "Dịch vụ ăn uống",
     children: [
       {
         id: "4-1",
@@ -48,12 +48,12 @@ export const MENU_ITEMS = [
   },
   {
     id: 6,
-    label: "Gallery",
+    label: "Thư viện",
     path: "/gallery",
   },
   {
     id: 5,
-    label: "Contact",
+    label: "Liên hệ",
     path: "/contact",
   },
 ];

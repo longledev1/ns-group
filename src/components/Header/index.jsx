@@ -22,9 +22,9 @@ export const Header = ({ variant = "default" }) => {
 
             <Link to="/">
               <img
-                src="/images/logo.png"
+                src="/images/NS_Logo2.svg"
                 alt="Logo"
-                className="mt-[-30px] w-30"
+                className="mt-[-30px] w-40"
               />
             </Link>
 

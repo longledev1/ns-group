@@ -33,7 +33,7 @@ export const HomePage = () => {
             <BrandSection />
           </Section>
 
-          <div className="mt-[200px] flex justify-center">
+          <div className="mt-[200px] mb-[120px] flex justify-center">
             <ContactForm />
           </div>
         </div>

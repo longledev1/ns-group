@@ -1,4 +1,4 @@
 const Section = ({ children, className = "" }) => (
-  <section className={`mt-[200px] ${className}`}>{children}</section>
+  <section className={`mt-[180px] ${className}`}>{children}</section>
 );
 export default Section;

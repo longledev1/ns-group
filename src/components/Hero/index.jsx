@@ -1,6 +1,7 @@
 import HomeHeroContent from "./HomeHero";
 import AboutHeroContent from "./AboutHero";
 import ProjectHeroContent from "./ProjectHero";
+import EstateHeroContent from "./EstateHero";
 export const Hero = ({ image, layout = "home", title, subtitle }) => {
   return (
     <section className="relative w-full overflow-hidden">
@@ -28,6 +29,12 @@ export const Hero = ({ image, layout = "home", title, subtitle }) => {
         <>
           <div className="absolute inset-0 bg-black/65" />
           <ProjectHeroContent title={title} subtitle={subtitle} />
+        </>
+      )}
+      {layout === "estate" && (
+        <>
+          <div className="absolute inset-0 bg-black/30" />
+          <EstateHeroContent title={title} subtitle={subtitle} />
         </>
       )}
     </section>

@@ -1,15 +1,30 @@
 @import "tailwindcss";
 
 @theme {
-  /* FONT HEADING (PLAYFAIR) */
+  /* FONT HEADING */
   --font-heading: "Playfair Display", serif;
-  /* FONT SANS (LORA) */
+
+  /* FONT BODY */
   --font-sans: "Lora", serif;
+
+  /* FONT ART */
   --font-art: "Allura", cursive;
+
+  /* FONT RISCHE (FONT RIÊNG) */
+  --font-rische: "Rische", serif;
+
   --color-primary: #3d3832;
-  --color-secondary: #fdfdf6;
+  --color-secondary: #fefdf4;
   --color-tertiary: #3a332b;
   --color-CTA: #cfb26e;
+}
+
+@font-face {
+  font-family: "Rische";
+  src: url("/fonts/rische-demo.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 /* Set default font-size = 14px (Mobile-first) */
