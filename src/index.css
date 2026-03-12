@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+@theme {
+  /* FONT HEADING */
+  --font-heading: "Cormorant Garamond", serif;
+
+  /* FONT MONTSERRAT */
+  --font-montserrat: "Montserrat", sans-serif;
+
+  /* FONT BODY */
+  --font-sans: "Lora", serif;
+
+  /* FONT ART */
+  --font-art: "Allura", cursive;
+
+  /* FONT RISCHE (FONT RIÊNG) */
+  --font-rische: "Rische", serif;
+
+  --color-primary: #3d3832;
+  --color-secondary: #fefdf4;
+  --color-tertiary: #3a332b;
+  --color-CTA: #cfb26e;
+}
+
+@font-face {
+  font-family: "Rische";
+  src: url("/fonts/rische-demo.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Set default font-size = 14px (Mobile-first) */
+:root {
+  font-size: 14px;
+}
+
+/* Desktop >= 1024px */
+@media (min-width: 1024px) {
+  :root {
+    font-size: 16px;
+  }
+}
+
+body {
+  font-family: var(--font-sans);
+}
+
+/* padding left-right 40px padding top-bottom 20px */
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 20px;
+}
+
+/* Đẩy các dấu chấm xuống thấp hơn 1 chút */
+.swiper-pagination {
+  bottom: 0px !important; /* Mặc định là 10px, chỉnh về 0 hoặc số âm nếu cần */
+  position: relative !important; /* Chuyển về relative để nó chiếm diện tích riêng, không đè lên chữ */
+  margin-top: 0px; /* Tạo khoảng cách giữa chữ và dấu chấm */
+}
+
+/* Màu cho dấu chấm đang hiển thị (Active) */
+.swiper-pagination-bullet-active {
+  background-color: #1e421e !important;
+  opacity: 1;
+}
+
+/* Màu cho các dấu chấm chờ */
+.swiper-pagination-bullet {
+  background-color: #757575; /* Tương đương gray-300 của Tailwind */
+}
