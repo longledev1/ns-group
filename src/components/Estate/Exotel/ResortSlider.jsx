@@ -12,111 +12,44 @@ const ResortSlider = () => {
     () => [
       {
         id: 1,
-        src: "https://images.unsplash.com/photo-1599839619722-39751411ea63?q=80&w=800&auto=format&fit=crop",
-        imgClass: "w-[320px] h-[220px]", // Ngang nhỏ (Ghế ngồi ngoài trời)
+        src: "/images/bungalow1.png",
+        imgClass: "w-[450px] h-[320px]",
       },
       {
         id: 2,
-        src: "https://images.unsplash.com/photo-1582719508461-905c673771fd?q=80&w=800&auto=format&fit=crop",
-        imgClass: "w-[400px] h-[600px]", // Dọc cao (Phong cảnh biển/cây)
+        src: "/images/resort.jpg",
+        imgClass: "w-[353px] h-[450px]", // Dọc cao (Phong cảnh biển/cây)
       },
       {
         id: 3,
-        src: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=800&auto=format&fit=crop",
-        imgClass: "w-[420px] h-[280px]", // Ngang vừa (Kiến trúc ban đêm)
+        src: "/images/resort.avif",
+        imgClass: "w-[450px] h-[320px]",
       },
       {
         id: 4,
-        src: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=800&auto=format&fit=crop",
-        imgClass: "w-[350px] h-[600px]", // Dọc cao (Phòng tắm thư giãn)
+        src: "/images/about-hero.png",
+        imgClass: "w-[353px] h-[450px]",
       },
-
-      // --- CỤM 2 ---
+      // Cụm 2
       {
         id: 5,
-        src: "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=800&auto=format&fit=crop",
-        imgClass: "w-[320px] h-[220px]", // Ngang nhỏ (Hồ bơi vô cực)
+        src: "/images/moment2.png",
+        imgClass: "w-[450px] h-[320px]",
       },
       {
         id: 6,
-        src: "https://images.unsplash.com/photo-1497362943358-1e42ba6b44a3?q=80&w=800&auto=format&fit=crop",
-        imgClass: "w-[400px] h-[600px]", // Dọc cao (Không gian nhà hàng sang trọng)
+        src: "/images/nature5.png",
+        imgClass: "w-[353px] h-[450px]", // Dọc cao (Phong cảnh biển/cây)
       },
       {
         id: 7,
-        src: "https://images.unsplash.com/photo-1618221118493-9cfa1a1c00da?q=80&w=800&auto=format&fit=crop",
-        imgClass: "w-[420px] h-[280px]", // Ngang vừa (Phòng ngủ resort)
+        src: "/images/forrest5.png",
+        imgClass: "w-[450px] h-[320px]",
       },
       {
         id: 8,
-        src: "https://images.unsplash.com/photo-1515238152737-2194146a110e?q=80&w=800&auto=format&fit=crop",
-        imgClass: "w-[350px] h-[600px]", // Dọc cao (Quầy Bar/Lounge ấm cúng)
-      },
-
-      // --- CỤM 3 ---
-      {
-        id: 9,
-        src: "https://images.unsplash.com/photo-1551882547-ff40c0d1398c?q=80&w=800&auto=format&fit=crop",
-        imgClass: "w-[320px] h-[220px]", // Ngang nhỏ (Bàn ăn decor)
-      },
-      {
-        id: 10,
-        src: "https://images.unsplash.com/photo-1600607686527-6fb886090705?q=80&w=800&auto=format&fit=crop",
-        imgClass: "w-[400px] h-[600px]", // Dọc cao (Mặt tiền Villa)
-      },
-      {
-        id: 11,
-        src: "https://images.unsplash.com/photo-1540541338-35698064b0ba?q=80&w=800&auto=format&fit=crop",
-        imgClass: "w-[420px] h-[280px]", // Ngang vừa (Món ăn Grill/Steak)
-      },
-      {
-        id: 12,
-        src: "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?q=80&w=800&auto=format&fit=crop",
-        imgClass: "w-[350px] h-[600px]", // Dọc cao (View hoàng hôn trên biển)
-      },
-
-      // --- CỤM 4 ---
-      {
-        id: 13,
-        src: "https://images.unsplash.com/photo-1587985824499-c4ac1890f9bb?q=80&w=800&auto=format&fit=crop",
-        imgClass: "w-[320px] h-[220px]", // Ngang nhỏ (Đồ uống/Cocktail)
-      },
-      {
-        id: 14,
-        src: "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?q=80&w=800&auto=format&fit=crop",
-        imgClass: "w-[400px] h-[600px]", // Dọc cao (Khu vực Spa)
-      },
-      {
-        id: 15,
-        src: "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?q=80&w=800&auto=format&fit=crop",
-        imgClass: "w-[420px] h-[280px]", // Ngang vừa (Nhà gỗ ven biển)
-      },
-      {
-        id: 16,
-        src: "https://images.unsplash.com/photo-1604014237800-1c9102c219ed?q=80&w=800&auto=format&fit=crop",
-        imgClass: "w-[350px] h-[600px]", // Dọc cao (Nội thất phòng khách)
-      },
-
-      // --- CỤM 5 ---
-      {
-        id: 17,
-        src: "https://images.unsplash.com/photo-1544148103-0773bf10d330?q=80&w=800&auto=format&fit=crop",
-        imgClass: "w-[320px] h-[220px]", // Ngang nhỏ (Bếp nướng/Grill)
-      },
-      {
-        id: 18,
-        src: "https://images.unsplash.com/photo-1563911302283-d2bc129e7570?q=80&w=800&auto=format&fit=crop",
-        imgClass: "w-[400px] h-[600px]", // Dọc cao (Lối đi ngập tràn cây xanh)
-      },
-      {
-        id: 19,
-        src: "https://images.unsplash.com/photo-1592595896616-c37162298647?q=80&w=800&auto=format&fit=crop",
-        imgClass: "w-[420px] h-[280px]", // Ngang vừa (Không gian outdoor ban đêm)
-      },
-      {
-        id: 20,
-        src: "https://images.unsplash.com/photo-1571896349842-ed85d6811dba?q=80&w=800&auto=format&fit=crop",
-        imgClass: "w-[350px] h-[600px]", // Dọc cao (Kiến trúc sảnh chính)
+        src: "/images/yenbay_retreat_bg.png",
+        imgClass: "w-[353px] h-[450px]",
       },
     ],
     [],

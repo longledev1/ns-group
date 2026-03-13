@@ -52,7 +52,7 @@ const NatureSection = () => {
         </div>
       </div>
     </div>
-  );
+  );  
 };
 
 export default NatureSection;

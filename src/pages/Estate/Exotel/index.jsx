@@ -5,6 +5,8 @@ import ResortSlider from "../../../components/Estate/Exotel/ResortSlider";
 import ForestVillaSection from "../../../components/Estate/Exotel/ForestVillaSection";
 import MomentsSection from "../../../components/Estate/Exotel/MomentSection";
 import { SeashellDecorate } from "../../../components/Estate/Exotel/SeashellDecorate";
+import SeasonsSection from "../../../components/Estate/Exotel/SeasonsSection";
+import LocationSection from "../../../components/Estate/Exotel/LocationSection";
 const Exotel = () => {
   return (
     <div className="overflow-x-hidden text-black">
@@ -20,10 +22,19 @@ const Exotel = () => {
         <NatureSection />
       </div>
       <ResortSlider></ResortSlider>
-      <div className="m container mx-auto">
+      <div className="container mx-auto">
         <ForestVillaSection />
       </div>
       <SeashellDecorate />
+      <div className="container mx-auto">
+        <MomentsSection />
+      </div>
+      <div className="container mx-auto">
+        <SeasonsSection />
+      </div>{" "}
+      <div className="mx-auto bg-[#EEECE0]">
+        <LocationSection />
+      </div>
     </div>
   );
 };
