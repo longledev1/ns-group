@@ -11,7 +11,8 @@ export const StoryNSG = () => {
 
         {/* Image float */}
         <img
-          src="/images/cook2.jpg"
+          loading="lazy"
+          src="/images/homepage/journey/journey1.webp"
           alt=""
           className="float-right mb-6 ml-10 w-[420px]"
         />

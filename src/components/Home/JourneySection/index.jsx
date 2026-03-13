@@ -5,24 +5,24 @@ export const JourneySection = () => {
   const images = useMemo(
     () => [
       {
-        src: "/images/ongTranTuong1.png",
+        src: "/images/homepage/journey/journey1.webp",
         caption:
           "Ảnh chụp ông Trần Tương (trái) và ông Trần Anh Dũng tại Trại Mát",
       },
       {
-        src: "/images/ns6.jpg",
+        src: "/images/homepage/journey/journey2.webp",
         caption: "Trại mát Ngọc Sương tại Ba Ngòi - Cam Ranh",
       },
       {
-        src: "/images/ns4.jpg",
+        src: "/images/homepage/journey/journey3.webp",
         caption: "Hình ảnh du khách tại trại mát Ngọc Sương",
       },
       {
-        src: "/images/ns5.jpg",
+        src: "/images/homepage/journey/journey4.webp",
         caption: "Hình ảnh du khách tại trại mát Ngọc Sương",
       },
       {
-        src: "/images/ns2.png",
+        src: "/images/homepage/journey/journey5.webp",
         caption: "Thực khách thưởng thức tại trại mát Ngọc Sương",
       },
     ],
@@ -86,7 +86,8 @@ export const JourneySection = () => {
           {/* Cột Image lớn - Chiếm nửa màn hình còn lại trên desktop */}
           <div className="w-full lg:w-1/2">
             <img
-              src="/images/ongTranTuong1.png"
+              loading="lazy"
+              src="/images/homepage/journey/journey1.webp"
               alt=""
               className="w-full cursor-pointer object-cover transition-transform duration-300 hover:scale-[1.01]"
               onClick={() => openLightbox(0)}
@@ -103,6 +104,7 @@ export const JourneySection = () => {
             const realIndex = idx + 1; // vì slice(1)
             return (
               <img
+                loading="lazy"
                 key={img.src}
                 src={img.src}
                 alt=""

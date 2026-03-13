@@ -42,7 +42,8 @@ export const AboutSection = () => {
           <div className="absolute top-6 -right-2 -z-10 hidden h-full w-full max-w-[480px] border border-[#BFA15F]/40 transition-transform duration-500 group-hover:translate-x-2 group-hover:-translate-y-2 md:block lg:-right-6"></div>
           <div className="relative aspect-[4/5] w-full max-w-[520px] overflow-hidden shadow-2xl lg:ml-auto">
             <img
-              src="/images/chairman.png"
+              loading="lazy"
+              src="/images/homepage/about/about_1.webp"
               className="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
               alt="Ông Trần Anh Dũng"
             />
@@ -68,7 +69,8 @@ export const AboutSection = () => {
           <div className="absolute top-6 -right-2 -z-10 hidden h-full w-full max-w-[480px] border border-[#BFA15F]/40 transition-transform duration-500 group-hover:translate-x-2 group-hover:-translate-y-2 md:block lg:-right-6"></div>
           <div className="relative aspect-[5/5] w-full max-w-[580px] overflow-hidden shadow-2xl lg:mr-auto">
             <img
-              src="/images/NSMarina_2.jpg"
+              loading="lazy"
+              src="/images/homepage/about/about_2.webp"
               className="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
               alt="Nhà hàng Ngọc Sương"
             />
@@ -131,7 +133,8 @@ export const AboutSection = () => {
           <div className="absolute top-6 -right-2 -z-10 hidden h-full w-full max-w-[480px] border border-[#BFA15F]/40 transition-transform duration-500 group-hover:translate-x-2 group-hover:-translate-y-2 md:block lg:-right-6"></div>
           <div className="relative aspect-[5/5] w-full max-w-[580px] overflow-hidden shadow-2xl lg:ml-auto">
             <img
-              src="/images/villa2.png"
+              loading="lazy"
+              src="/images/homepage/culture/culture2.webp"
               className="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
               alt="Villa Ngọc Sương"
             />

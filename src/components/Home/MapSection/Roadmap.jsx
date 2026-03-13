@@ -22,6 +22,7 @@ function Roadmap({ projects }) {
             <div className="mt-4 grid grid-cols-2 gap-2 lg:gap-3">
               {item.images.map((img, i) => (
                 <img
+                  loading="lazy"
                   key={i}
                   src={img}
                   alt=""

@@ -10,7 +10,8 @@ export const ImageHistory = () => {
 
       <div className="relative w-full overflow-hidden lg:w-1/2">
         <img
-          src="/images/ongTranTuong1.avif"
+          loading="lazy"
+          src="/images/aboutpage/about_1.webp"
           className="h-full w-full object-cover"
           alt="Trại Mát Ngọc Sương"
         />

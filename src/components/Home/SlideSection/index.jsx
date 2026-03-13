@@ -15,7 +15,7 @@ import "./slideup.css";
 
 const slides = [
   {
-    image: "/images/exotel.jpg",
+    image: "/images/homepage/slide/exotel.webp",
     title: "EXOTEL YEN BAY",
     desc: `
 Nằm e ấp bên những triền núi xanh và mặt biển trong veo của vịnh Cam Ranh, Exotel Yến Bay hiện lên như một viên ngọc quý giữa bãi tắm Ngọc Sương thanh bình. Nơi đây sở hữu cảnh quan độc nhất vô nhị, tạo nên bởi những khối đá hoa cương điêu khắc bởi thiên nhiên, đổ bóng xuống mặt vịnh nước trong xanh.
@@ -25,7 +25,7 @@ Không gian nghỉ dưỡng yên bình, khám phá thiên nhiên,bồi dưỡng 
     url: "/estate/exotel-yen-bay",
   },
   {
-    image: "/images/retreat.png",
+    image: "/images/homepage/slide/yenbay_retreat.webp",
     title: "YEN BAY RETREAT",
     desc: `
 Lối vào khu nghỉ dưỡng được ví như “con đường dẫn lên thiên đường” – uốn lượn giữa một bên là vách núi hùng vĩ, một bên là biển xanh bất tận. Mỗi khoảnh khắc đi qua cung đường ấy đều như lạc bước vào một bức tranh thủy mặc sống động, khiến bất kỳ ai cũng phải say mê.
@@ -59,6 +59,7 @@ export const SlideSection = () => {
             <SwiperSlide key={i} className="relative h-full w-full">
               {/* Ảnh nền */}
               <img
+                loading="lazy"
                 src={slide.image}
                 alt={slide.title}
                 className="absolute inset-0 h-full w-full object-cover"

@@ -4,10 +4,10 @@ import "swiper/css";
 
 // Mình tạo 1 mảng data ảnh để code gọn hơn, tái sử dụng cho cả 2 khối Mobile và Desktop
 const timelineImages = [
-  { src: "/images/restaurant1.avif", alt: "Nhà hàng Ngọc Sương 1" },
-  { src: "/images/restaurant2.avif", alt: "Nhà hàng Ngọc Sương 2" },
-  { src: "/images/resort.avif", alt: "Resort Ngọc Sương" },
-  { src: "/images/restaurant4.avif", alt: "Nhà hàng Ngọc Sương 4" },
+  { src: "/images/aboutpage/about_2.webp", alt: "Nhà hàng Ngọc Sương 1" },
+  { src: "/images/aboutpage/about_3.webp", alt: "Nhà hàng Ngọc Sương 2" },
+  { src: "/images/aboutpage/about_4.webp", alt: "Resort Ngọc Sương" },
+  { src: "/images/aboutpage/about_5.webp", alt: "Nhà hàng Ngọc Sương 4" },
 ];
 
 export const ImageTimeLine = () => {
@@ -32,6 +32,7 @@ export const ImageTimeLine = () => {
             <SwiperSlide key={index}>
               <div className="h-[300px] w-full md:h-[400px]">
                 <img
+                  loading="lazy"
                   src={item.src}
                   className="h-full w-full object-cover"
                   alt={item.alt}

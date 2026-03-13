@@ -16,7 +16,7 @@ export const CultureSection = () => {
         {/* CARD 1 */}
         <div className="group relative cursor-pointer overflow-hidden">
           <img
-            src="/images/restaurant.jpg"
+            src="/images/homepage/culture/culture1.webp"
             alt="Culture 1"
             className="h-full w-full object-cover transition-transform duration-500 lg:group-hover:scale-[1.02]"
           />
@@ -47,7 +47,8 @@ export const CultureSection = () => {
         {/* CARD 2 */}
         <div className="group relative cursor-pointer overflow-hidden">
           <img
-            src="/images/villa2.png"
+            loading="lazy"
+            src="/images/homepage/culture/culture2.webp"
             alt="Culture 2"
             className="h-full w-full object-cover transition-transform duration-500 lg:group-hover:scale-[1.02]"
           />
