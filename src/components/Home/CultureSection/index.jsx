@@ -16,7 +16,7 @@ export const CultureSection = () => {
         {/* CARD 1 */}
         <div className="group relative cursor-pointer overflow-hidden">
           <img
-            src="/images/homepage/culture/culture1.webp"
+            src="/images/homepage/culture/culture1.png"
             alt="Culture 1"
             className="h-full w-full object-cover transition-transform duration-500 lg:group-hover:scale-[1.02]"
           />
@@ -25,7 +25,7 @@ export const CultureSection = () => {
           <div className="absolute inset-0 bg-black/50 transition-opacity duration-300 lg:group-hover:opacity-10" />
 
           {/* Center text */}
-          <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-xl font-bold text-white transition-all duration-300 lg:text-[30px] lg:group-hover:scale-95 lg:group-hover:opacity-0">
+          <div className="font-heading absolute inset-0 flex flex-col items-center justify-center text-center text-xl font-bold text-white transition-all duration-300 lg:text-[30px] lg:group-hover:scale-95 lg:group-hover:opacity-0">
             <p>NƠI ẨM THỰC</p>
             <p className="mt-2 lg:mt-4">GẶP GỠ NGHỆ THUẬT</p>
           </div>
@@ -55,7 +55,7 @@ export const CultureSection = () => {
 
           <div className="absolute inset-0 bg-black/50 transition-opacity duration-300 lg:group-hover:opacity-10" />
 
-          <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-xl font-bold text-white transition-all duration-300 lg:text-[30px] lg:group-hover:scale-95 lg:group-hover:opacity-0">
+          <div className="font-heading absolute inset-0 flex flex-col items-center justify-center text-center text-xl font-bold text-white transition-all duration-300 lg:text-[30px] lg:group-hover:scale-95 lg:group-hover:opacity-0">
             <p>NƠI KHÔNG GIAN</p>
             <p className="mt-2 lg:mt-4">GẶP GỠ CẢM XÚC</p>
           </div>

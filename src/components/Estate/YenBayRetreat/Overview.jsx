@@ -6,9 +6,9 @@ import "swiper/css";
 const Overview = () => {
   // Tạo mảng ảnh để dễ dàng map ra cho cả 2 phiên bản Mobile & Desktop
   const overviewImages = [
-    { src: "/images/yenbay1.svg", alt: "Yen Bay 1" },
-    { src: "/images/yenbay2.svg", alt: "Yen Bay 2" },
-    { src: "/images/yenbay3.svg", alt: "Yen Bay 3" },
+    { src: "/images/estate/yenbay/yenbay1.webp", alt: "Yen Bay 1" },
+    { src: "/images/estate/yenbay/yenbay2.webp", alt: "Yen Bay 2" },
+    { src: "/images/estate/yenbay/yenbay3.webp", alt: "Yen Bay 3" },
   ];
 
   return (
@@ -49,6 +49,7 @@ const Overview = () => {
               {/* Cố định chiều cao ảnh trên mobile để slider đều đặn */}
               <div className="h-[350px] w-full">
                 <img
+                  loading="lazy"
                   src={img.src}
                   alt={img.alt}
                   className="h-full w-full rounded-lg object-cover"

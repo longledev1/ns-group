@@ -54,7 +54,7 @@ const ComingSoon = () => {
         {/* Thông tin liên hệ */}
         <div className="font-montserrat flex flex-col items-center gap-y-3 text-[13px] font-light text-white/80 md:text-[15px]">
           <p className="tracking-wide">
-            Mọi thắc mắc hoặc cần hỗ trợ thông tin, Quý khách vui lòng liên hệ:
+            Nếu bạn cần hỗ trợ thêm thông tin, Quý khách vui lòng liên hệ:
           </p>
 
           <div className="flex flex-col items-center gap-y-2 md:flex-row md:gap-x-6">
@@ -62,10 +62,8 @@ const ComingSoon = () => {
               href="tel:0778727894"
               className="transition-colors hover:text-[#E8DCC4]"
             >
-              <span className="font-semibold tracking-wider uppercase">
-                Hotline:
-              </span>{" "}
-              0778 727 894
+              <span className="tracking-wider">Hotline:</span>{" "}
+              <span className="font-medium">0778.727.894</span>
             </a>
 
             <span className="hidden md:block">|</span>
@@ -74,10 +72,8 @@ const ComingSoon = () => {
               href="mailto:nsgroup@gmail.com"
               className="transition-colors hover:text-[#E8DCC4]"
             >
-              <span className="font-semibold tracking-wider uppercase">
-                Email:
-              </span>{" "}
-              nsgroup@gmail.com
+              <span className="tracking-wider">Email:</span>{" "}
+              <span className="font-medium">nsgroup@gmail.com</span>
             </a>
           </div>
         </div>

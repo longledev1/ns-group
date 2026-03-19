@@ -38,7 +38,7 @@ const YenBayRetreat = () => {
       {/* Vacation Section (Nghỉ dưỡng nội khu) nằm ngoài container vì nó có thể chứa ảnh full-width
           Responsive mt: trên mobile là mt-16 để giãn cách bình thường, lên Desktop mới dùng margin âm (mt-[-50px]) để tạo hiệu ứng đè 
       */}
-      <div className="mt-16 md:mt-24 lg:mt-[-50px]">
+      <div className="mt-16 md:mt-24">
         <Vacation />
       </div>
 

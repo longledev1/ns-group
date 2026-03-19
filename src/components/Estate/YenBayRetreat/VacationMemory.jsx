@@ -30,14 +30,16 @@ const VacationMemory = () => {
         <div className="grid grid-cols-2 gap-4 lg:col-span-7 lg:grid-cols-7 lg:gap-x-8">
           <div className="lg:col-span-4">
             <img
-              src="/images/memory1.svg"
+              loading="lazy"
+              src="/images/estate/yenbay/vaca2.webp"
               className="h-[250px] w-full rounded-lg object-cover md:h-[400px] lg:mt-16 lg:h-full lg:rounded-none"
               alt="Khoảnh khắc 1"
             />
           </div>
           <div className="lg:col-span-3">
             <img
-              src="/images/memory2.svg"
+              loading="lazy"
+              src="/images/estate/yenbay/vaca1.webp"
               className="h-[250px] w-full rounded-lg object-cover md:h-[400px] lg:h-full lg:rounded-none"
               alt="Khoảnh khắc 2"
             />
@@ -46,12 +48,13 @@ const VacationMemory = () => {
       </div>
 
       {/* ================= SECTION 2 ================= */}
-      <div className="mt-16 mb-16 lg:mt-40 lg:mb-20">
+      <div className="mt-16 mb-16 lg:mt-50 lg:mb-20">
         <div className="mb-10 grid grid-cols-1 items-center gap-y-8 lg:grid-cols-12 lg:gap-x-8">
           {/* Cột Ảnh 1 */}
           <div className="order-2 lg:order-1 lg:col-span-5">
             <img
-              src="/images/memory3.svg"
+              loading="lazy"
+              src="/images/estate/yenbay/vaca3.webp"
               className="h-[250px] w-full rounded-lg object-cover md:h-[350px] lg:h-[440px] lg:rounded-none"
               alt="Hòa mình thiên nhiên"
             />
@@ -102,12 +105,14 @@ const VacationMemory = () => {
         {/* Khối 2 Ảnh Nằm Ngang Cuối Cùng */}
         <div className="flex flex-col gap-4 md:flex-row lg:gap-x-5">
           <img
-            src="/images/memory4.svg"
+            loading="lazy"
+            src="/images/estate/yenbay/vaca4.webp"
             className="h-[200px] w-full rounded-lg object-cover md:h-[300px] md:w-1/2 lg:h-full lg:rounded-none"
             alt="Biển xanh"
           />
           <img
-            src="/images/memory5.svg"
+            loading="lazy"
+            src="/images/estate/yenbay/vaca5.webp"
             className="h-[200px] w-full rounded-lg object-cover md:h-[300px] md:w-1/2 lg:h-full lg:rounded-none"
             alt="Rừng nhiệt đới"
           />

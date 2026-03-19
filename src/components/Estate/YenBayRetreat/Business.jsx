@@ -18,7 +18,8 @@ const Business = () => {
 
       <div className="mb-5 flex flex-col-reverse justify-center gap-10 px-4 md:flex-row md:px-0">
         <img
-          src="/images/villa2.png"
+          loading="lazy"
+          src="/images/homepage/culture/culture2.webp"
           className="w-full max-w-[650px] border-2 border-[#1E421E] object-cover p-2"
           alt=""
         />

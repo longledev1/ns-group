@@ -1,7 +1,12 @@
 const ContentSGM = ({ data }) => {
   return (
     <div>
-      <img src="/images/sgm_text.svg" alt="" className="mx-auto" />
+      <img
+        loading="lazy"
+        src="/images/fnb/sgm/sgm_text.svg"
+        alt=""
+        className="mx-auto"
+      />
       <p className="mx-auto w-250 text-center leading-relaxed">
         Kiến tạo một không gian ẩm thực riêng tư và đẳng cấp,{" "}
         <span className="font-bold">Saigon Marina</span> là điểm hẹn của những
@@ -18,6 +23,7 @@ const ContentSGM = ({ data }) => {
               className="group relative cursor-pointer overflow-hidden"
             >
               <img
+                loading="lazy"
                 src={item.image}
                 alt={item.title}
                 className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"

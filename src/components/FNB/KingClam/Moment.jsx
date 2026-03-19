@@ -10,9 +10,10 @@ const Moment = () => {
         {/* CỘT 1: Ảnh lớn */}
         <div className="col-span-6">
           <img
-            src="/images/kingClam_moment1.svg"
+            src="/images/fnb/kingclam/grill3.webp"
             className="h-full w-full object-cover"
             alt="Moment"
+            loading="lazy"
           />
         </div>
 
@@ -20,16 +21,18 @@ const Moment = () => {
         <div className="col-span-6 flex flex-col gap-4">
           <div className="flex-1">
             <img
-              src="/images/kingClam_moment2.svg"
+              src="/images/fnb/kingclam/kingClam_moment1.webp"
               className="h-full w-full object-cover"
               alt="Moment"
+              loading="lazy"
             />
           </div>
           <div className="flex-1">
             <img
-              src="/images/kingClam_moment3.svg"
+              src="/images/fnb/kingclam/kingClam_moment2.webp"
               className="h-full w-full object-cover"
               alt="Moment"
+              loading="lazy"
             />
           </div>
         </div>
@@ -41,23 +44,26 @@ const Moment = () => {
 
         <div className="col-span-4">
           <img
-            src="/images/kingClam_moment4.svg"
+            src="/images/fnb/kingclam/kingClam_moment3.webp"
             className="h-full w-full object-cover"
             alt="Moment"
+            loading="lazy"
           />
         </div>
         <div className="col-span-4">
           <img
-            src="/images/kingClam_moment5.svg"
+            src="/images/fnb/kingclam/kingClam_moment4.webp"
             className="h-full w-full object-cover"
             alt="Moment"
+            loading="lazy"
           />
         </div>
         <div className="col-span-4">
           <img
-            src="/images/kingClam_moment6.svg"
+            src="/images/fnb/kingclam/kingClam_moment5.webp"
             className="h-full w-full object-cover"
             alt="Moment"
+            loading="lazy"
           />
         </div>
       </div>

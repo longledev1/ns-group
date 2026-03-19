@@ -9,68 +9,68 @@ const ArchitecturePlans = () => {
     () => [
       // NHÓM 1: PA I - TRƯỚC
       {
-        src: "/images/plan1_1.png",
+        src: "/images/estate/yenbay/plan1_1.webp",
         caption: "MẶT BẰNG TRỆT",
         plan: "PHƯƠNG ÁN KIẾN TRÚC I (LỐI VÀO PHÍA TRƯỚC)",
       },
       {
-        src: "/images/plan1_2.png",
+        src: "/images/estate/yenbay/plan1_2.webp",
         caption: "MẶT BẰNG LẦU 1",
         plan: "PHƯƠNG ÁN KIẾN TRÚC I (LỐI VÀO PHÍA TRƯỚC)",
       },
       {
-        src: "/images/plan1_3.png",
+        src: "/images/estate/yenbay/plan1_3.webp",
         caption: "MẶT BẰNG MÁI",
         plan: "PHƯƠNG ÁN KIẾN TRÚC I (LỐI VÀO PHÍA TRƯỚC)",
       },
 
       // NHÓM 2: PA I - SAU
       {
-        src: "/images/plan1op1_1.png",
+        src: "/images/estate/yenbay/plan1op1_1.webp",
         caption: "MẶT BẰNG TRỆT",
         plan: "PHƯƠNG ÁN KIẾN TRÚC I (LỐI VÀO PHÍA SAU)",
       },
       {
-        src: "/images/plan1op1_2.png",
+        src: "/images/estate/yenbay/plan1op1_2.webp",
         caption: "MẶT BẰNG LẦU 1",
         plan: "PHƯƠNG ÁN KIẾN TRÚC I (LỐI VÀO PHÍA SAU)",
       },
       {
-        src: "/images/plan1op1_3.png",
+        src: "/images/estate/yenbay/plan1op1_3.webp",
         caption: "MẶT BẰNG MÁI",
         plan: "PHƯƠNG ÁN KIẾN TRÚC I (LỐI VÀO PHÍA SAU)",
       },
 
       // NHÓM 3: PA II - TRƯỚC
       {
-        src: "/images/plan2_1.png",
+        src: "/images/estate/yenbay/plan2_1.webp",
         caption: "MẶT BẰNG TRỆT",
         plan: "PHƯƠNG ÁN KIẾN TRÚC II (LỐI VÀO PHÍA TRƯỚC)",
       },
       {
-        src: "/images/plan2_2.png",
+        src: "/images/estate/yenbay/plan2_2.webp",
         caption: "MẶT BẰNG LẦU 1",
         plan: "PHƯƠNG ÁN KIẾN TRÚC II (LỐI VÀO PHÍA TRƯỚC)",
       },
       {
-        src: "/images/plan2_3.png",
+        src: "/images/estate/yenbay/plan2_3.webp",
         caption: "MẶT BẰNG MÁI",
         plan: "PHƯƠNG ÁN KIẾN TRÚC II (LỐI VÀO PHÍA TRƯỚC)",
       },
 
       // NHÓM 4: PA II - SAU
       {
-        src: "/images/plan2op2_1.png",
+        src: "/images/estate/yenbay/plan2op2_1.webp",
         caption: "MẶT BẰNG TRỆT",
         plan: "PHƯƠNG ÁN KIẾN TRÚC II (LỐI VÀO PHÍA SAU)",
       },
       {
-        src: "/images/plan2op2_2.png",
+        src: "/images/estate/yenbay/plan2op2_2.webp",
         caption: "MẶT BẰNG LẦU 1",
         plan: "PHƯƠNG ÁN KIẾN TRÚC II (LỐI VÀO PHÍA SAU)",
       },
       {
-        src: "/images/plan2op2_3.png",
+        src: "/images/estate/yenbay/plan2op2_3.webp",
         caption: "MẶT BẰNG MÁI",
         plan: "PHƯƠNG ÁN KIẾN TRÚC II (LỐI VÀO PHÍA SAU)",
       },

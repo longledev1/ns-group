@@ -8,7 +8,8 @@ const SpaceSGM = () => {
       <div className="mt-10 grid grid-cols-3 gap-y-5">
         <div className="relative h-100 w-100 overflow-hidden">
           <img
-            src="/images/space1.svg"
+            loading="lazy"
+            src="/images/fnb/sgm/space1.webp"
             className="h-full w-full object-cover"
             alt=""
           />
@@ -20,7 +21,8 @@ const SpaceSGM = () => {
         </div>
         <div className="relative h-100 w-100 overflow-hidden">
           <img
-            src="/images/space2.svg"
+            loading="lazy"
+            src="/images/fnb/sgm/space2.webp"
             className="h-full w-full object-cover"
             alt=""
           />
@@ -41,7 +43,8 @@ const SpaceSGM = () => {
         {/* STEP 2 */}
         <div className="relative h-100 w-100 overflow-hidden">
           <img
-            src="/images/space3.svg"
+            loading="lazy"
+            src="/images/fnb/sgm/space3.webp"
             className="h-full w-full object-cover"
             alt=""
           />
@@ -51,7 +54,8 @@ const SpaceSGM = () => {
         </div>
         <div className="relative h-100 w-100 overflow-hidden">
           <img
-            src="/images/space4.svg"
+            loading="lazy"
+            src="/images/fnb/sgm/space4.webp"
             className="h-full w-full object-cover"
             alt=""
           />
@@ -63,7 +67,8 @@ const SpaceSGM = () => {
         </div>{" "}
         <div className="relative h-100 overflow-hidden">
           <img
-            src="/images/space5.avif"
+            loading="lazy"
+            src="/images/fnb/sgm/space5.avif"
             className="h-full w-full object-cover"
             alt=""
           />

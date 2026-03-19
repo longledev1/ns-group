@@ -9,10 +9,10 @@ const Location = () => {
 
   // Khai báo mảng 4 ảnh cho phần khung cảnh
   const locationImages = [
-    "/images/locaExotel1.svg",
-    "/images/locaExotel2.svg",
-    "/images/locaExotel3.svg",
-    "/images/locaExotel4.svg",
+    "/images/estate/yenbay/loca1.webp",
+    "/images/estate/yenbay/loca2.webp",
+    "/images/estate/yenbay/loca3.webp",
+    "/images/estate/yenbay/loca4.webp",
   ];
 
   return (
@@ -66,7 +66,8 @@ const Location = () => {
         {/* Cột Hình ảnh (Bản đồ) */}
         <div className="col-span-1 flex md:col-span-5 md:justify-end">
           <img
-            src="/images/mapExotel.svg"
+            loading="lazy"
+            src="/images/estate/yenbay/mapYenBay.webp"
             className="h-auto w-full max-w-full cursor-pointer object-cover md:h-full md:w-[420px]"
             alt="Bản đồ"
             onClick={() => setIsOpen(true)}
@@ -91,7 +92,8 @@ const Location = () => {
                 onClick={(e) => e.stopPropagation()}
               >
                 <img
-                  src="/images/mapExotel.svg"
+                  loading="lazy"
+                  src="/images/estate/yenbay/mapYenBay.webp"
                   alt="Bản đồ phóng lớn"
                   className="w-[600px] object-contain"
                 />
@@ -119,6 +121,7 @@ const Location = () => {
                   }`}
                 >
                   <img
+                    loading="lazy"
                     className="h-full w-full rounded-lg object-cover"
                     src={src}
                     alt={`Khung cảnh ${index + 1}`}
@@ -134,6 +137,7 @@ const Location = () => {
       <div className="hidden md:grid md:grid-cols-2 md:gap-x-5">
         {locationImages.slice(0, 2).map((src, index) => (
           <img
+            loading="lazy"
             key={`desktop-${index}`}
             className="h-[250px] w-full object-cover md:h-[400px] lg:h-[500px]"
             src={src}

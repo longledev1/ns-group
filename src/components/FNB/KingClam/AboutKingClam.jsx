@@ -15,10 +15,20 @@ const AboutKingClam = () => {
           vestibulum. Pulvinar turpis sed diam semper nisi ligula. Et imperdiet
           varius parturient at. Pretium facilisis integer faucibus euismod.
         </p>
-        <img src="/images/kingClam_signature.svg" className="w-40" alt="" />
+        <img
+          loading="lazy"
+          src="/images/fnb/kingclam/kingClam_signature.svg"
+          className="w-40"
+          alt=""
+        />
       </div>
       <div>
-        <img src="/images/kingClam_about.jpeg" className="w-[500px]" alt="" />
+        <img
+          loading="lazy"
+          src="/images/fnb/kingclam/kingClam_about.webp"
+          className="w-[500px]"
+          alt=""
+        />
       </div>
     </div>
   );

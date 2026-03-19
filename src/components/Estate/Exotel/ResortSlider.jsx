@@ -12,43 +12,43 @@ const ResortSlider = () => {
     () => [
       {
         id: 1,
-        src: "/images/bungalow1.png",
+        src: "/images/estate/exotel/slide_1.webp",
         imgClass: "w-[450px] h-[320px]",
       },
       {
         id: 2,
-        src: "/images/resort.jpg",
+        src: "/images/estate/exotel/slide_2.webp",
         imgClass: "w-[353px] h-[450px]", // Dọc cao (Phong cảnh biển/cây)
       },
       {
         id: 3,
-        src: "/images/resort.avif",
+        src: "/images/estate/exotel/slide_3.webp",
         imgClass: "w-[450px] h-[320px]",
       },
       {
         id: 4,
-        src: "/images/about-hero.png",
+        src: "/images/estate/exotel/slide_4.webp",
         imgClass: "w-[353px] h-[450px]",
       },
       // Cụm 2
       {
         id: 5,
-        src: "/images/moment2.png",
+        src: "/images/estate/exotel/slide_5.webp",
         imgClass: "w-[450px] h-[320px]",
       },
       {
         id: 6,
-        src: "/images/nature5.png",
+        src: "/images/estate/exotel/slide_6.webp",
         imgClass: "w-[353px] h-[450px]", // Dọc cao (Phong cảnh biển/cây)
       },
       {
         id: 7,
-        src: "/images/forrest5.png",
+        src: "/images/estate/exotel/slide_7.webp",
         imgClass: "w-[450px] h-[320px]",
       },
       {
         id: 8,
-        src: "/images/yenbay_retreat_bg.png",
+        src: "/images/estate/exotel/slide_8.webp",
         imgClass: "w-[353px] h-[450px]",
       },
     ],
@@ -110,6 +110,7 @@ const ResortSlider = () => {
             >
               <div className="overflow-hidden shadow-sm">
                 <img
+                  loading="lazy"
                   onClick={() => openLightbox(idx)}
                   src={slide.src}
                   alt={`Slide ${slide.id}`}

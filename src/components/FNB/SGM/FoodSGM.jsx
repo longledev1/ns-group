@@ -1,5 +1,3 @@
-import React from "react";
-
 const FoodSGM = () => {
   return (
     <>
@@ -11,7 +9,8 @@ const FoodSGM = () => {
           {/* Left Image Section */}
           <div className="relative h-[970px]">
             <img
-              src="https://images.unsplash.com/photo-1482049016688-2d3e1b311543"
+              loading="lazy"
+              src="/images/fnb/sgm/sgmFood_1.jpg"
               alt="Canapé dish"
               className="h-full w-full object-cover"
             />
@@ -47,7 +46,8 @@ const FoodSGM = () => {
             <div className="mt-8 flex-1">
               <div className="relative h-full overflow-hidden">
                 <img
-                  src="https://www.tasteofhome.com/wp-content/uploads/2025/05/Greek-Shrimp-Canapes_FT25_173406_EC_0416_3.jpg"
+                  loading="lazy"
+                  src="/images/fnb/sgm/sgmFood_2.jpg"
                   alt="Seafood dish"
                   className="h-[435px] w-full object-cover"
                 />
@@ -86,7 +86,8 @@ const FoodSGM = () => {
             <div className="mt-8 flex-1">
               <div className="relative -ml-[48px] h-full w-[600px] overflow-hidden">
                 <img
-                  src="https://images.unsplash.com/photo-1629131148968-cc429c4b0ed3?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  loading="lazy"
+                  src="/images/fnb/sgm/sgmFood_3.jpg"
                   alt="Seafood dish"
                   className="h-[435px] object-cover"
                 />
@@ -96,7 +97,8 @@ const FoodSGM = () => {
           {/* Left Image Section */}
           <div className="relative h-[970px] w-[590px]">
             <img
-              src="https://plus.unsplash.com/premium_photo-1708011763377-cabc5986cc55?q=80&w=688&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              loading="lazy"
+              src="/images/fnb/sgm/sgmFood_4.jpg"
               alt="Canapé dish"
               className="h-full w-full object-cover"
             />

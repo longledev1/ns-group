@@ -7,11 +7,11 @@ const MasterPlan = () => {
   const images = useMemo(
     () => [
       {
-        src: "/images/masterplan1.png",
+        src: "/images/estate/yenbay/masterplan1.png",
         caption: "PHƯƠNG ÁN QUY HOẠCH TỔNG MẶT BẰNG SỬ DỤNG ĐẤT (1)",
       },
       {
-        src: "/images/masterplan2.png",
+        src: "/images/estate/yenbay/masterplan2.png",
         caption: "PHƯƠNG ÁN QUY HOẠCH TỔNG MẶT BẰNG SỬ DỤNG ĐẤT (2)",
       },
     ],
@@ -102,6 +102,7 @@ const MasterPlan = () => {
                   }`}
                 >
                   <img
+                    loading="lazy"
                     src={img.src}
                     alt={img.caption}
                     className="w-full cursor-pointer border-[1.5px] border-[#1E421E] object-cover"

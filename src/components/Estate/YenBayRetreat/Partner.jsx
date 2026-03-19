@@ -1,5 +1,3 @@
-import React from "react";
-
 const Partner = () => {
   return (
     <div className="flex flex-col gap-y-10 text-center">
@@ -24,7 +22,8 @@ const Partner = () => {
       <div className="flex flex-col gap-y-8 px-4 md:hidden">
         {/* Ảnh */}
         <img
-          src="/images/partner.svg"
+          loading="lazy"
+          src="/images/estate/yenbay/partner.webp"
           className="w-full rounded-lg object-cover shadow-sm"
           alt="Đối tác"
         />
@@ -50,7 +49,8 @@ const Partner = () => {
           <div className="flex w-1/2 flex-col items-center gap-y-3 border-r border-[#1E421E]/20 pr-4">
             <p className="font-bold text-[#1E421E]">Chủ đầu tư</p>
             <img
-              src="/images/nscorporation.svg"
+              loading="lazy"
+              src="/images/estate/yenbay/nscorporation.svg"
               className="h-30 w-full object-contain"
               alt="NS Corporation"
             />
@@ -58,7 +58,8 @@ const Partner = () => {
           <div className="flex w-1/2 flex-col items-center gap-y-3 pl-4">
             <p className="font-bold text-[#1E421E]">Phát triển</p>
             <img
-              src="/images/exolandmark.svg"
+              loading="lazy"
+              src="/images/estate/yenbay/exolandmark.svg"
               className="h-30 w-full object-contain"
               alt="Exo Landmark"
             />
@@ -130,7 +131,12 @@ const Partner = () => {
       {/* ================================================ */}
       <div className="hidden grid-cols-12 gap-x-5 md:grid">
         <div className="col-span-5">
-          <img src="/images/partner.svg" className="object-cover" alt="" />
+          <img
+            loading="lazy"
+            src="/images/estate/yenbay/partner.webp"
+            className="bject-cover w-[500px]"
+            alt=""
+          />
         </div>
         <div className="col-span-7">
           <div className="flex flex-col gap-y-8">
@@ -154,7 +160,8 @@ const Partner = () => {
               <div className="flex flex-col gap-y-2">
                 <p className="text-xl font-bold">Chủ đầu tư</p>
                 <img
-                  src="/images/nscorporation.svg"
+                  loading="lazy"
+                  src="/images/estate/yenbay/nscorporation.svg"
                   className="relative -top-[20px]"
                   alt=""
                 />
@@ -162,7 +169,8 @@ const Partner = () => {
               <div className="flex flex-col gap-y-2">
                 <p className="text-xl font-bold">Phát triển</p>
                 <img
-                  src="/images/exolandmark.svg"
+                  loading="lazy"
+                  src="/images/estate/yenbay/exolandmark.svg"
                   className="relative -top-[60px]"
                   alt=""
                 />

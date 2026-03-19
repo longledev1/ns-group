@@ -9,10 +9,10 @@ import ArchitecturePlans from "./ArchitecturePlans";
 const Arch = () => {
   // Gom 4 ảnh vào mảng để code gọn gàng, dễ bảo trì
   const archImages = [
-    "/images/arch1.svg",
-    "/images/arch2.svg",
-    "/images/arch3.svg",
-    "/images/arch4.svg",
+    "/images/estate/yenbay/arch1.webp",
+    "/images/estate/yenbay/arch2.webp",
+    "/images/estate/yenbay/arch3.webp",
+    "/images/estate/yenbay/arch4.webp",
   ];
 
   return (
@@ -40,6 +40,7 @@ const Arch = () => {
                   }`}
                 >
                   <img
+                    loading="lazy"
                     src={src}
                     className="h-full w-full rounded-lg object-cover shadow-sm"
                     alt={`Kiến trúc ${index + 1}`}
@@ -58,6 +59,7 @@ const Arch = () => {
           // Responsive chiều cao ảnh trên các màn hình lớn nhỏ khác nhau
           <div key={`desktop-arch-${index}`} className="">
             <img
+              loading="lazy"
               src={src}
               className="h-full w-full object-cover"
               alt={`Kiến trúc ${index + 1}`}

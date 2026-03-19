@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 // 1. Dữ liệu giả lập
 const galleryData = {
   outdoor: [
-    { src: "/images/moment1.png" },
+    { src: "/images/estate/exotel/moment1.webp" },
     {
       src: "https://images.unsplash.com/photo-1522850067562-a4c60453058d?q=80&w=765&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
@@ -24,7 +24,7 @@ const galleryData = {
     },
   ],
   cruise: [
-    { src: "/images/moment2.png" },
+    { src: "/images/estate/exotel/moment2.webp" },
     {
       src: "https://images.unsplash.com/photo-1550524587-01b38c780bfa?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
@@ -39,7 +39,7 @@ const galleryData = {
     },
   ],
   energy: [
-    { src: "/images/moment3.png" },
+    { src: "/images/estate/exotel/moment3.webp" },
     {
       src: "https://images.unsplash.com/photo-1488345979593-09db0f85545f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
@@ -54,7 +54,7 @@ const galleryData = {
     },
   ],
   food: [
-    { src: "/images/moment4.png" },
+    { src: "/images/estate/exotel/moment4.webp" },
     {
       src: "https://product.hstatic.net/200000294188/product/mien-xao-cua_cae208a7e22a41fc9cba5d124b97e1cb_05ba15ad0e1d407db2d4729d884e2331_master.png",
     },
@@ -81,7 +81,7 @@ const galleryData = {
     },
   ],
   lounge: [
-    { src: "/images/moment5.png" },
+    { src: "/images/estate/exotel/moment5.webp" },
     {
       src: "https://images.unsplash.com/photo-1569924995012-c4c706bfcd51?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
@@ -96,7 +96,7 @@ const galleryData = {
     },
   ],
   fishing: [
-    { src: "/images/moment6.png" },
+    { src: "/images/estate/exotel/moment6.webp" },
     {
       src: "https://statics.vinpearl.com/cau-ca-phu-quoc-1_1630808479.jpg",
     },
@@ -172,7 +172,8 @@ const MomentsSection = () => {
             onClick={() => openGallery("outdoor")}
           >
             <img
-              src="/images/moment1.png"
+              loading="lazy"
+              src="/images/estate/exotel/moment1.webp"
               className="w-full object-cover transition-transform duration-700 group-hover:scale-[1.03]"
               alt="Hoạt động ngoài trời"
             />
@@ -204,7 +205,8 @@ const MomentsSection = () => {
             onClick={() => openGallery("cruise")}
           >
             <img
-              src="/images/moment2.png"
+              loading="lazy"
+              src="/images/estate/exotel/moment2.webp"
               className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-[1.03]"
               alt="Du thuyền trên vịnh Cam Ranh"
             />
@@ -236,7 +238,8 @@ const MomentsSection = () => {
             onClick={() => openGallery("energy")}
           >
             <img
-              src="/images/moment3.png"
+              loading="lazy"
+              src="/images/estate/exotel/moment3.webp"
               className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-[1.03]"
               alt="Tái tạo năng lượng"
             />
@@ -267,7 +270,8 @@ const MomentsSection = () => {
             onClick={() => openGallery("food")}
           >
             <img
-              src="/images/moment4.png"
+              loading="lazy"
+              src="/images/estate/exotel/moment4.webp"
               className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-[1.03]"
               alt="Ẩm thực YenBay"
             />
@@ -297,7 +301,8 @@ const MomentsSection = () => {
             onClick={() => openGallery("lounge")}
           >
             <img
-              src="/images/moment5.png"
+              loading="lazy"
+              src="/images/estate/exotel/moment5.webp"
               className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-[1.03]"
               alt="Lounge & Bar"
             />
@@ -329,7 +334,8 @@ const MomentsSection = () => {
           onClick={() => openGallery("fishing")}
         >
           <img
-            src="/images/moment6.png"
+            loading="lazy"
+            src="/images/estate/exotel/moment6.webp"
             className="w-full object-cover transition-transform duration-700 group-hover:scale-[1.03]"
             alt="Câu cá"
           />

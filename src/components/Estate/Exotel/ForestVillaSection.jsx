@@ -6,16 +6,19 @@ const ForestVillaSection = () => {
       <div className="mb-5 flex gap-x-[30px]">
         <div className="">
           <img
+            loading="lazy"
             className="w-full object-cover"
-            src="/images/forrest1.png"
+            src="/images/estate/exotel/forrest1.webp"
             alt=""
           />
         </div>
         <div className="flex flex-col justify-between">
           <div className="mb-8 flex flex-col text-6xl">
-            <h2 className="font-heading text-right">KHI KHÔNG GIAN</h2>
-            <h2 className="font-heading mt-[1px] text-right font-bold">
-              HÒA VÀO CẢNH QUAN
+            <h2 className="font-heading text-right font-light">
+              KHI <span className="font-semibold">KHÔNG GIAN</span>
+            </h2>
+            <h2 className="font-heading mt-[1px] text-right font-light">
+              HÒA VÀO <span className="font-semibold">CẢNH QUAN</span>
             </h2>
             <div className="mt-8 text-base">
               <p className="font-montserrat mb-4 text-right leading-[30px]">
@@ -33,7 +36,8 @@ const ForestVillaSection = () => {
           <div className="">
             <img
               className="h-[400px] w-full object-cover"
-              src="/images/forrest2.png"
+              loading="lazy"
+              src="/images/estate/exotel/forrest2.webp"
               alt=""
             />
           </div>
@@ -42,17 +46,20 @@ const ForestVillaSection = () => {
       <div className="flex items-center gap-5">
         <img
           className="h-[448px] w-full object-cover"
-          src="/images/forrest3.png"
+          loading="lazy"
+          src="/images/estate/exotel/forrest3.webp"
           alt=""
         />
         <img
           className="h-[448px] w-full object-cover"
-          src="/images/forrest4.png"
+          loading="lazy"
+          src="/images/estate/exotel/forrest4.webp"
           alt=""
         />
         <img
           className="h-[448px] w-full object-cover"
-          src="/images/forrest5.png"
+          loading="lazy"
+          src="/images/estate/exotel/forrest5.webp"
           alt=""
         />
       </div>

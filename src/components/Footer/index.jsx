@@ -9,7 +9,12 @@ export const Footer = () => {
         <div className="mt-4 grid grid-cols-2 gap-x-4 gap-y-10 md:grid-cols-5 md:gap-10">
           {/* Logo: Mobile chiếm 2 cột (col-span-2) để đứng 1 mình 1 dòng, Desktop trả về 1 cột (md:col-span-1) */}
           <div className="col-span-2 md:col-span-1">
-            <img src="/images/NS_Logo2.svg" alt="Logo" className="w-35" />
+            <img
+              loading="lazy"
+              src="/images/homepage/brand/NS_Logo2.svg"
+              alt="Logo"
+              className="w-35"
+            />
           </div>
 
           {/* Về chúng tôi */}

@@ -5,7 +5,8 @@ const OverviewSection = () => {
     <div className="text-primary grid grid-cols-2 items-center">
       <div className="w-full max-w-[433px]">
         <img
-          src="/images/exotel_overview.png"
+          loading="lazy"
+          src="/images/estate/exotel/exotel_overview.webp"
           className="h-full w-full object-cover"
           alt=""
         />

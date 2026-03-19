@@ -16,29 +16,15 @@ const AboutSGM = () => {
         </p>
       </div>
       <div>
-        <img src="/images/Container.svg" className="w-155" alt="" />
+        <img
+          loading="lazy"
+          src="/images/fnb/sgm/Container.svg"
+          className="w-155"
+          alt=""
+        />
       </div>
     </div>
   );
 };
 
 export default AboutSGM;
-<div className="flex w-[50%] justify-end">
-  <div className="relative w-[400px]">
-    {/* Ảnh nền */}
-    <img
-      src="/images/sgm2.svg"
-      alt="Background"
-      className="h-[600px] w-full object-cover"
-    />
-
-    {/* Ảnh đè */}
-    <div className="absolute top-1/2 -left-[120px] z-10 -translate-y-1/2">
-      <img
-        src="/images/sgm1.svg"
-        alt="Overlay"
-        className="h-[350px] w-[350px] object-cover shadow-2xl"
-      />
-    </div>
-  </div>
-</div>;

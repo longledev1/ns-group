@@ -1,7 +1,7 @@
 export const SGM_DATA = [
   {
     title: "BẾP NGỌC SƯƠNG CAO CẤP",
-    image: "/images/sgmContent1.avif",
+    image: "/images/fnb/sgm/sgmContent1.avif",
     items: [
       "Menu individual",
       "Phong cách trình bày hiện đại",
@@ -10,7 +10,7 @@ export const SGM_DATA = [
   },
   {
     title: "NGUỒN HẢI SẢN TƯƠI SỐNG",
-    image: "/images/sgmContent2.avif",
+    image: "/images/fnb/sgm/sgmContent2.webp",
     items: [
       "Chất lượng hải sản cao cấp",
       "Hải sản quý, giá trị cao",
@@ -19,7 +19,7 @@ export const SGM_DATA = [
   },
   {
     title: "DU THUYỀN CAO CẤP",
-    image: "/images/sgmContent3.svg",
+    image: "/images/fnb/sgm/sgmContent3.webp",
     items: [
       "Chất liệu gỗ và da",
       "Phong caảnh du thuyền & bến du thuyền",
@@ -28,7 +28,7 @@ export const SGM_DATA = [
   },
   {
     title: "VỊ TRÍ ĐẮC ĐỊA",
-    image: "/images/sgmContent4.svg",
+    image: "/images/fnb/sgm/sgmContent4.webp",
     items: [
       "Chính khách & businessmen",
       "Giới nghệ sĩ",

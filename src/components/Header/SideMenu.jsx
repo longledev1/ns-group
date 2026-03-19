@@ -13,10 +13,10 @@ const SideMenu = ({ open, onClose }) => {
 
   return (
     <div
-      className={`bg-secondary text-primary fixed top-0 right-0 z-50 h-full w-[320px] shadow-xl transition-transform duration-300 ease-in-out ${open ? "translate-x-0" : "translate-x-full"} `}
+      className={`bg-secondary font-montserrat text-primary fixed top-0 right-0 z-50 h-full w-[320px] shadow-xl transition-transform duration-300 ease-in-out ${open ? "translate-x-0" : "translate-x-full"} `}
     >
       {/* Header */}
-      <div className="flex items-center justify-between border-b p-4">
+      <div className="bg-primary text-secondary flex items-center justify-between border-b p-4">
         <p className="text-lg font-semibold">Menu</p>
         <button onClick={onClose} className="text-xl hover:opacity-60">
           ✕
@@ -35,12 +35,12 @@ const SideMenu = ({ open, onClose }) => {
                 <Link
                   to={item.path}
                   onClick={onClose}
-                  className="font-semibold hover:opacity-60"
+                  className="font-normal hover:opacity-60"
                 >
                   {item.label}
                 </Link>
               ) : (
-                <span className="font-semibold hover:opacity-60">
+                <span className="font-normal hover:opacity-60">
                   {item.label}
                 </span>
               )}

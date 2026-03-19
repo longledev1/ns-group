@@ -14,7 +14,7 @@ const VacationSlide = () => {
         "Sẽ thật thiếu sót nếu rời xa phố hội mà không được thưởng thức những hương vị ẩm thực trọn vẹn. Tại Yến Bay, du khách được Ngọc Sương phục vụ chu đáo từ các món miền biển dân dã của Trại Mát đến những quà ngon ba miền tại quán Chợ Cũ...",
         "Khi chiều buông, Yến Bay trở nên lãng mạn với ánh hoàng hôn phủ nhẹ trên mặt vịnh. Du khách có thể tản bộ thư giãn, hít thở gió biển mát lành và lưu lại những khoảnh khắc đáng nhớ. Một trải nghiệm trọn vẹn cho cả gia đình trong không gian bình yên và tinh tế.",
       ],
-      image: "/images/traimat.png",
+      image: "/images/estate/yenbay/traimat.webp",
       logo: null,
     },
     {
@@ -24,7 +24,7 @@ const VacationSlide = () => {
         "Phát triển từ thương hiệu Ngọc Sương, Saigon Marina hướng đến trải nghiệm ẩm thực hải sản cao cấp, nguyên liệu tuyển chọn, không gian du thuyền sang trọng và sự riêng tư tinh tế cùng tồn tại – dành cho những cuộc chiêu đãi, gặp gỡ và kết nối mang dấu ấn cá nhân.",
         "Saigon Marina không chỉ là nơi thưởng thức hải sản, mà còn là điểm đến thể hiện phong cách sống thượng lưu giữa lòng thành phố. Từng chi tiết từ ánh sáng, cách bài trí cho đến dịch vụ đều được chăm chút để tạo nên một hành trình ẩm thực trọn vẹn, nơi khách hàng có thể tận hưởng sự thư thái, đẳng cấp và cảm giác được phục vụ như một vị khách danh giá.",
       ],
-      image: "/images/sgm_background.svg",
+      image: "/images/estate/yenbay/saigon_marina.avif",
       logo: null,
     },
     {
@@ -34,7 +34,7 @@ const VacationSlide = () => {
         "Trại Mát là mô hình nhà hàng chất lượng 2* kết hợp trạm dừng chân, đặt trên các tuyến đường du lịch, phục vụ khách vãng lai với các món ăn hải sản dân dã, cơm Việt và bầu không khí yên tĩnh, thư giãn.",
         "Trở về quá khứ, Trại Mát từng là thương hiệu khởi nguồn để xây dựng nên chuỗi nhà hàng Ngọc Sương rất thành công. Thương hiệu Trại Mát hiện đại kế thừa những giá trị ẩm thực xưa cũ, đi sâu vào lòng người, được lồng trong bối cảnh hiện đại, vòm lá ấn tượng nhưng chất liệu kiến tạo lại đậm chất văn hóa Viêt Nam như mây tre, lá dừa,hồ sen...",
       ],
-      image: "/images/traimat_background.png",
+      image: "/images/estate/yenbay/traimat1.webp",
       logo: null,
     },
     {
@@ -45,7 +45,7 @@ const VacationSlide = () => {
         "Không gian hướng về thiên nhiên với nhiều mảng cây xanh, mang nét bụi bặm của đá granit tại Vịnh Yến, sự ấm cúng của gỗ tự nhiên trong nội thất và những mảng màu rực rỡ của tranh treo trên tường để tạo điểm nhấn.",
         "Với quầy bar mở, có ghế ngồi, khách hàng có thể tương tác với bartender và thợ bánh khi họ làm việc từ đó tạo sự kết nối thú vị khi tìm hiểu về sản phẩm",
       ],
-      image: "/images/exocafe_background.png",
+      image: "/images/estate/yenbay/exo_cafe.jpg",
       logo: null,
     },
     {
@@ -55,7 +55,7 @@ const VacationSlide = () => {
         "Nhà hàng Yến Bay tuyển chọn những món ăn đặc sắc nhất của Chef Dũng trong suốt sự nghiệp xây dựng và phát triển thương hiệu của ông. Không gian ấm cúng và thân thiện, hứa hẹn sẽ mang đến cho các thực khách một bữa ăn thật trọn vẹn. ",
         "Mang không gian biển đảo Yến Bay về thành phố, vẫn giữ nét ẩm thực của Ngọc Sương Lê Quý Đôn. Phong cách là sự kết hợp giữa Á và Âu pha lẫn chút không khí biển đảo với nhạc máy êm ả tạo không khí relax và đôi khi liên hoan bùng cháy hơn. Không gian được bố trí hai phần: một nửa phòng lạnh và một nửa ngoài trời kết hợp với hồ nước Lagoon theo mẫu mã hồ bơi FOH Cam Ranh.",
       ],
-      image: "/images/yen_background.png",
+      image: "/images/estate/yenbay/yen.avif",
       logo: null,
     },
     {
@@ -65,7 +65,7 @@ const VacationSlide = () => {
         "Lấy cảm hứng bếp show, trình diễn chế biến bên bếp lửa hồng , vừa hiện đại vừa tạo sự thích thú cho khách hàng khi đi theo lối dẫn chung của khung vực Saigon Promenade",
         "Không chỉ dừng lại ở việc thưởng thức món ăn, KingClam Grill & Bar còn mang đến một hành trình trải nghiệm trọn vẹn, nơi hương thơm từ bếp nướng hòa cùng ánh lửa rực tạo nên bầu không khí sống động và đầy cuốn hút. Từng bước chân của thực khách như được dẫn dắt qua một “sân khấu ẩm thực” độc đáo, nơi sự tinh tế trong không gian, âm thanh và nhịp điệu phục vụ cùng kết hợp để tạo nên cảm giác vừa thư giãn, vừa đẳng cấp, đúng chất của một điểm hẹn sang trọng giữa Saigon Promenade.",
       ],
-      image: "/images/kingclam_background.png",
+      image: "/images/estate/yenbay/kingclam.avif",
       logo: null,
     },
   ];
@@ -92,6 +92,7 @@ const VacationSlide = () => {
                 {/* Nửa trên: Hình ảnh */}
                 <div className="relative h-[240px] w-full shrink-0">
                   <img
+                    loading="lazy"
                     src={project.image}
                     className="h-full w-full object-cover"
                     alt={project.title}
@@ -145,6 +146,7 @@ const VacationSlide = () => {
                 {/* ẢNH TRÁI */}
                 <div className="h-full w-1/2 lg:w-[45%]">
                   <img
+                    loading="lazy"
                     src={project.image}
                     className="h-full w-full object-cover transition-transform duration-700 hover:scale-105"
                     alt={project.title}

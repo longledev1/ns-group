@@ -7,7 +7,7 @@ const NotFound = () => {
     <div
       className="relative flex min-h-screen items-center justify-center bg-cover bg-center bg-no-repeat"
       // TODO: Thay thế bằng ảnh phong cảnh thật chill của dự án
-      style={{ backgroundImage: "url('/images/yenbay_retreat_bg.png')" }}
+      style={{ backgroundImage: "url('/images/hero/yenbay_retreat_bg.png')" }}
     >
       {/* Lớp phủ đen mờ */}
       <div className="absolute inset-0 bg-black/60"></div>
@@ -63,10 +63,8 @@ const NotFound = () => {
               href="tel:0778727894"
               className="transition-colors hover:text-[#E8DCC4]"
             >
-              <span className="font-semibold tracking-wider uppercase">
-                Hotline:
-              </span>{" "}
-              0778 727 894
+              <span className="tracking-wider">Hotline:</span>{" "}
+              <span className="font-medium">0778.727.894</span>
             </a>
 
             <span className="hidden md:block">|</span>
@@ -75,10 +73,8 @@ const NotFound = () => {
               href="mailto:nsgroup@gmail.com"
               className="transition-colors hover:text-[#E8DCC4]"
             >
-              <span className="font-semibold tracking-wider uppercase">
-                Email:
-              </span>{" "}
-              nsgroup@gmail.com
+              <span className="tracking-wider">Email:</span>{" "}
+              <span className="font-medium">nsgroup@gmail.com</span>
             </a>
           </div>
         </div>
