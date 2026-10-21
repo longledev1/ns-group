@@ -8,14 +8,25 @@ export const Hero = ({
   layout = "home",
   title,
   subtitle,
+  video,
 }) => {
   return (
     <section className="relative w-full overflow-hidden">
-      <img
-        src={image}
-        alt=""
-        className="absolute inset-0 h-full w-full object-cover"
-      />
+      {video ? (
+        <video
+          src={video}
+          autoPlay
+          loop
+          muted
+          className="absolute inset-0 h-full w-full object-cover"
+        />
+      ) : (
+        <img
+          src={image}
+          alt=""
+          className="absolute inset-0 h-full w-full object-cover"
+        />
+      )}
 
       {layout === "home" && (
         <>
@@ -33,11 +44,14 @@ export const Hero = ({
 
       {layout === "fnb" && (
         <>
-          <div className="absolute inset-0 bg-black/65" />
+          <div
+            className={`${video ? "absolute inset-0 bg-black/20" : "absolute inset-0 bg-black/50"}`}
+          />
           <ProjectHeroContent
             imageLogo={imageLogo}
             title={title}
             subtitle={subtitle}
+            video={video}
           />
         </>
       )}

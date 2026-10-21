@@ -26,6 +26,13 @@ export const HERO_DATA = {
     subtitle: `Nơi tinh hoa hải sản tươi sống hòa quyện cùng nghệ thuật nướng củi và những dòng rượu thượng hạng. Khám phá không gian Grill & Bar đẳng cấp, nơi mỗi khoảnh khắc đều là một bản giao hưởng của hương vị.`,
     layout: "fnb",
   },
+  "/fnb/exo-cafe": {
+    image: null,
+    imageLogo: "/images/homepage/brand/Exocafe_logo.png",
+    subtitle: `Một trạm dừng chân mang sắc màu nhiệt đới, nơi gỗ ấm, đá tự nhiên và mảng xanh hòa quyện tạo nên không gian thư thái. Thiết kế quầy bar mở xóa nhòa khoảng cách giữa khách và người pha chế, mang đến trải nghiệm tương tác đầy cảm hứng. Tại đây, bạn không chỉ thưởng thức hương vị nguyên bản mà còn lắng nghe câu chuyện từ những người thợ tài hoa.`,
+    layout: "fnb",
+    video: "/videos/exoCafe_video.mp4",
+  },
   "/estate/yen-bay-retreat": {
     image: "/images/hero/yenbay_retreat_bg.png",
     title: "Yen Bay Retreat",

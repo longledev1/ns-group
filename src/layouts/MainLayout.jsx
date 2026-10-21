@@ -18,6 +18,7 @@ export const MainLayout = () => {
           title={heroData.title}
           subtitle={heroData.subtitle}
           layout={heroData.layout}
+          video={heroData.video}
           variant={"default"}
         />
       )}

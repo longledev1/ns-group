@@ -8,7 +8,7 @@ import Buisness from "../../../components/Estate/YenBayRetreat/Business";
 
 const YenBayRetreat = () => {
   return (
-    <div className="text-primary overflow-x-hidden">
+    <div className="text-primary bg-secondary overflow-x-hidden">
       {/* 1. Xóa bỏ mb-20 ở các thẻ con vì flex gap-y đã làm thay nhiệm vụ đó. 
           2. Scale khoảng cách dọc mượt mà: Mobile 64px (16) -> Tablet 96px (24) -> Desktop 150px 
       */}

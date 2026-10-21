@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-const ProjectHeroContent = ({ imageLogo, subtitle }) => {
+const ProjectHeroContent = ({ imageLogo, subtitle, video }) => {
   return (
     <div className="relative z-10 flex h-[730px] items-end justify-start">
       <div className="container">
@@ -13,17 +13,17 @@ const ProjectHeroContent = ({ imageLogo, subtitle }) => {
             ease: "easeOut",
           }}
         >
-          {/* <h1 className="font-heading text-CTA text-4xl font-semibold tracking-wide">
-              {title}
-            </h1> */}
           <div className="flex items-center gap-x-10">
-            <img src={imageLogo} className="w-70" alt="" />
-            {/* <p className="mt-15 -ml-5 font-thin text-white/90">
-              YEAR OF ISSUED 2021
-            </p> */}
+            <img
+              src={imageLogo}
+              className={`${video ? "mb-[-60px] ml-[-50px] w-100" : "w-70"}`}
+              alt=""
+            />
           </div>
 
-          <p className="text-small mt-4 leading-8 text-white">{subtitle}</p>
+          <p className="text-small font-montserrat mt-4 leading-8 text-white">
+            {subtitle}
+          </p>
         </motion.div>
       </div>
     </div>

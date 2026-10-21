@@ -1,8 +1,9 @@
 import { createBrowserRouter } from "react-router-dom";
 import { MainLayout } from "../layouts/MainLayout.jsx";
 import { HomePage } from "../pages/HomePage/index.jsx";
+import TestPage from "../pages/TestPage.jsx";
 import { AboutUs } from "../components/AboutUs/index.jsx";
-import { SGM, KingClam } from "../pages/FNB/index.jsx";
+import { SGM, KingClam, ExoCafe } from "../pages/FNB/index.jsx";
 import YenBayRetreat from "../pages/Estate/YenBayRetreat/index.jsx";
 import Exotel from "../pages/Estate/Exotel/index.jsx";
 import ComingSoon from "../components/ComingSoon.jsx";
@@ -35,7 +36,8 @@ const router = createBrowserRouter([
   },
   {
     path: "/fnb/exo-cafe",
-    children: [{ index: true, element: <ComingSoon /> }],
+    element: <MainLayout />,
+    children: [{ index: true, element: <ExoCafe /> }],
   },
   {
     path: "/fnb/traimat",
@@ -67,6 +69,12 @@ const router = createBrowserRouter([
     path: "/contact",
     children: [{ index: true, element: <ComingSoon /> }],
   },
+
+  {
+    path: "/test-page",
+    children: [{ index: true, element: <TestPage /> }],
+  },
+
   // ĐẶT Ở CUỐI CÙNG BẢNG:
   {
     path: "*",

@@ -32,13 +32,25 @@ const SideMenu = ({ open, onClose }) => {
               onClick={() => item.children && toggleSubmenu(item.id)}
             >
               {item.path ? (
-                <Link
-                  to={item.path}
-                  onClick={onClose}
-                  className="font-normal hover:opacity-60"
-                >
-                  {item.label}
-                </Link>
+                item.target === "_blank" || item.path.startsWith("http") ? (
+                  <a
+                    href={item.path}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={onClose}
+                    className="font-normal hover:opacity-60"
+                  >
+                    {item.label}
+                  </a>
+                ) : (
+                  <Link
+                    to={item.path}
+                    onClick={onClose}
+                    className="font-normal hover:opacity-60"
+                  >
+                    {item.label}
+                  </Link>
+                )
               ) : (
                 <span className="font-normal hover:opacity-60">
                   {item.label}
@@ -66,17 +78,34 @@ const SideMenu = ({ open, onClose }) => {
                   transition={{ duration: 0.25, ease: "easeInOut" }}
                   className="mt-2 ml-4 flex flex-col gap-2 overflow-hidden text-[15px] text-gray-600"
                 >
-                  {item.children.map((sub) => (
-                    <li key={sub.id}>
-                      <Link
-                        to={sub.path}
-                        onClick={onClose}
-                        className="hover:text-primary cursor-pointer"
-                      >
-                        {sub.label}
-                      </Link>
-                    </li>
-                  ))}
+                  {item.children.map((sub) => {
+                    const isExternal =
+                      sub.target === "_blank" || sub.path?.startsWith("http");
+
+                    return (
+                      <li key={sub.id}>
+                        {isExternal ? (
+                          <a
+                            href={sub.path}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            onClick={onClose}
+                            className="hover:text-primary cursor-pointer"
+                          >
+                            {sub.label}
+                          </a>
+                        ) : (
+                          <Link
+                            to={sub.path}
+                            onClick={onClose}
+                            className="hover:text-primary cursor-pointer"
+                          >
+                            {sub.label}
+                          </Link>
+                        )}
+                      </li>
+                    );
+                  })}
                 </motion.ul>
               )}
             </AnimatePresence>

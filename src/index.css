@@ -16,6 +16,12 @@
   /* FONT RISCHE (FONT RIÊNG) */
   --font-rische: "Rische", serif;
 
+  /* FONT JOSEFIN SANS */
+  --font-josefin: "Josefin Sans", sans-serif;
+
+  /* FONT OOH BABY */
+  --font-oooh-baby: "Oooh Baby", cursive;
+
   --color-primary: #3d3832;
   --color-secondary: #fefdf4;
   --color-tertiary: #3a332b;
